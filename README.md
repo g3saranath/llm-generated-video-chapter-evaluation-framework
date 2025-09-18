@@ -92,7 +92,7 @@ pip install -r requirements.txt
 streamlit run annotation/app.py
 ```
 
-### ✨ **Key Features**
+### **Key Features**
 
 #### ** Video Processing**
 - **Auto-Detection**: Automatically detects new video IDs and runs evaluator

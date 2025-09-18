@@ -1,0 +1,325 @@
+{
+  "video_id": "kCc8FmEb1nY",
+  "chapters": [
+    {
+      "title": "Introduction to ChatGPT and AI Interaction",
+      "summary": "An overview of ChatGPT, its impact on AI community, and how it generates text sequentially. The chapter introduces the probabilistic nature of ChatGPT's responses with examples of different outputs for the same prompt.",
+      "start_time": 0.2,
+      "end_time": 61.4,
+      "duration": 61.2,
+      "start_timestamp": "00:00:00",
+      "end_timestamp": "00:01:01",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=0s"
+    },
+    {
+      "title": "Exploring ChatGPT Use Cases and Examples",
+      "summary": "Demonstrates various humorous and creative examples of ChatGPT's capabilities, including writing HTML explanations, release notes, and breaking news articles. Highlights the diversity and creativity of AI-generated content.",
+      "start_time": 59.8,
+      "end_time": 125.4,
+      "duration": 65.6,
+      "start_timestamp": "00:00:59",
+      "end_timestamp": "00:02:05",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=59s"
+    },
+    {
+      "title": "The Transformer Architecture Behind ChatGPT",
+      "summary": "Introduces the foundational Transformer architecture from the 2017 paper 'Attention is All You Need' that powers ChatGPT. Discusses the significance of the Transformer in AI and its adoption across many applications.",
+      "start_time": 125.4,
+      "end_time": 195.5,
+      "duration": 70.1,
+      "start_timestamp": "00:02:05",
+      "end_timestamp": "00:03:15",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=125s"
+    },
+    {
+      "title": "Building a Simple Transformer Language Model",
+      "summary": "Focuses on training a character-level Transformer language model using the tiny Shakespeare dataset. Explains tokenization at the character level and the goal of generating Shakespeare-like text.",
+      "start_time": 195.5,
+      "end_time": 271.7,
+      "duration": 76.2,
+      "start_timestamp": "00:03:15",
+      "end_timestamp": "00:04:31",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=195s"
+    },
+    {
+      "title": "Character Tokenization and Data Preparation",
+      "summary": "Details the process of converting raw text into a sorted vocabulary of characters, encoding and decoding characters to integers, and preparing the dataset as tensors for training. Introduces train-validation split for model evaluation.",
+      "start_time": 269.2,
+      "end_time": 870.4,
+      "duration": 601.2,
+      "start_timestamp": "00:04:29",
+      "end_timestamp": "00:14:30",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=269s"
+    },
+    {
+      "title": "Training Data Batching and Sequence Sampling",
+      "summary": "Explains the concept of training on chunks of data (blocks) rather than entire sequences, how batches of sequences are sampled randomly, and how input-target pairs are constructed for training the model.",
+      "start_time": 868.2,
+      "end_time": 1277.4,
+      "duration": 409.2,
+      "start_timestamp": "00:14:28",
+      "end_timestamp": "00:21:17",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=868s"
+    },
+    {
+      "title": "Implementing a Basic Bigram Language Model",
+      "summary": "Introduces the simplest neural network for language modeling, the bigram model, which predicts the next character based solely on the current token. Covers embedding lookup, logits generation, and loss calculation using cross-entropy.",
+      "start_time": 1333.8,
+      "end_time": 1546.2,
+      "duration": 212.4,
+      "start_timestamp": "00:22:13",
+      "end_timestamp": "00:25:46",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=1333s"
+    },
+    {
+      "title": "Handling Logits Shape and Loss Computation Details",
+      "summary": "Discusses the necessary reshaping of logits and target tensors to conform with PyTorch's cross-entropy loss requirements. Explains the intuition behind loss values and initial model performance.",
+      "start_time": 1544.1,
+      "end_time": 1699.3,
+      "duration": 155.2,
+      "start_timestamp": "00:25:44",
+      "end_timestamp": "00:28:19",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=1544s"
+    },
+    {
+      "title": "Generating Text from the Model",
+      "summary": "Describes the text generation process from the trained model by iteratively sampling the next token based on predicted probabilities. Covers handling batch dimensions and the importance of optional targets during generation.",
+      "start_time": 1735.0,
+      "end_time": 2000.9,
+      "duration": 265.9,
+      "start_timestamp": "00:28:55",
+      "end_timestamp": "00:33:20",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=1735s"
+    },
+    {
+      "title": "Training the Bigram Model and Observing Improvements",
+      "summary": "Details the training loop using the Adam optimizer, training progress over iterations, and observed improvements in loss and generated text quality, despite the simplicity of the bigram model.",
+      "start_time": 2027.0,
+      "end_time": 2279.6,
+      "duration": 252.6,
+      "start_timestamp": "00:33:47",
+      "end_timestamp": "00:37:59",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=2027s"
+    },
+    {
+      "title": "Introducing the Transformer Model Architecture",
+      "summary": "Begins transitioning from the bigram model to the Transformer by adding token embeddings, positional embeddings, and preparing for self-attention. Explains the importance of positional information in sequences.",
+      "start_time": 2282.0,
+      "end_time": 2544.2,
+      "duration": 262.2,
+      "start_timestamp": "00:38:02",
+      "end_timestamp": "00:42:24",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=2282s"
+    },
+    {
+      "title": "Understanding Self-Attention: Basic Concepts and Averaging",
+      "summary": "Introduces the concept of tokens communicating with previous tokens via averaging. Explains the inefficiency of naive averaging and sets the stage for a more efficient matrix multiplication approach for self-attention.",
+      "start_time": 2542.6,
+      "end_time": 2830.3,
+      "duration": 287.7,
+      "start_timestamp": "00:42:22",
+      "end_timestamp": "00:47:10",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=2542s"
+    },
+    {
+      "title": "Efficient Self-Attention via Masked Matrix Multiplication",
+      "summary": "Demonstrates how lower-triangular masking and matrix multiplication can efficiently compute weighted averages of past tokens. Introduces masking with negative infinity and softmax normalization to control token communication.",
+      "start_time": 2833.0,
+      "end_time": 3507.7,
+      "duration": 674.7,
+      "start_timestamp": "00:47:13",
+      "end_timestamp": "00:58:27",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=2833s"
+    },
+    {
+      "title": "Implementing Token and Positional Embeddings with Linear Layers",
+      "summary": "Refines the embedding process by introducing an intermediate embedding dimension and a linear layer to project embeddings to logits. Prepares the model for integrating self-attention mechanisms.",
+      "start_time": 3507.7,
+      "end_time": 3638.4,
+      "duration": 130.7,
+      "start_timestamp": "00:58:27",
+      "end_timestamp": "01:00:38",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=3507s"
+    },
+    {
+      "title": "Single Head Self-Attention: Queries, Keys, and Values",
+      "summary": "Explains the core mechanism of self-attention where each token produces query, key, and value vectors. Affinities between tokens are computed via dot products of queries and keys, enabling data-dependent communication.",
+      "start_time": 3630.1,
+      "end_time": 3858.6,
+      "duration": 228.5,
+      "start_timestamp": "01:00:30",
+      "end_timestamp": "01:04:18",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=3630s"
+    },
+    {
+      "title": "Self-Attention Head Implementation and Masking",
+      "summary": "Details the implementation of a single self-attention head including masking future tokens, applying scaled dot-product attention, softmax normalization, and aggregating values. Shows how affinities vary per batch element.",
+      "start_time": 3855.5,
+      "end_time": 4194.8,
+      "duration": 339.3,
+      "start_timestamp": "01:04:15",
+      "end_timestamp": "01:09:54",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=3855s"
+    },
+    {
+      "title": "Incorporating Values and Output of Self-Attention Head",
+      "summary": "Describes how the value vectors are aggregated using the attention weights to produce the output of the self-attention head. Discusses the interpretation of keys, queries, and values as communication and private information.",
+      "start_time": 4208.0,
+      "end_time": 4345.5,
+      "duration": 137.5,
+      "start_timestamp": "01:10:08",
+      "end_timestamp": "01:12:25",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=4208s"
+    },
+    {
+      "title": "Attention as a Communication Mechanism and Graph Analogy",
+      "summary": "Explores attention as a communication mechanism over a directed graph structure with tokens as nodes. Highlights the importance of positional encoding and the flexibility of attention beyond sequential data.",
+      "start_time": 4343.1,
+      "end_time": 4541.8,
+      "duration": 198.7,
+      "start_timestamp": "01:12:23",
+      "end_timestamp": "01:15:41",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=4343s"
+    },
+    {
+      "title": "Self-Attention vs Cross-Attention and Scaled Dot-Product",
+      "summary": "Clarifies the difference between self-attention and cross-attention. Introduces the scaling factor (1/sqrt(head size)) in dot-product attention to maintain variance and prevent softmax from becoming too peaky at initialization.",
+      "start_time": 4540.2,
+      "end_time": 4769.3,
+      "duration": 229.1,
+      "start_timestamp": "01:15:40",
+      "end_timestamp": "01:19:29",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=4540s"
+    },
+    {
+      "title": "Building the Self-Attention Module in PyTorch",
+      "summary": "Walks through the PyTorch implementation of a self-attention head including registering the lower triangular mask buffer, computing keys, queries, attention weights, masking, softmax, and value aggregation.",
+      "start_time": 4766.8,
+      "end_time": 4871.1,
+      "duration": 104.3,
+      "start_timestamp": "01:19:26",
+      "end_timestamp": "01:21:11",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=4766s"
+    },
+    {
+      "title": "Training the Transformer with Self-Attention",
+      "summary": "Describes training the Transformer model with the newly added self-attention head, observing improvements in validation loss and generation quality compared to the bigram model.",
+      "start_time": 4871.1,
+      "end_time": 4922.9,
+      "duration": 51.8,
+      "start_timestamp": "01:21:11",
+      "end_timestamp": "01:22:02",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=4871s"
+    },
+    {
+      "title": "Multi-Head Attention: Parallel Attention Mechanisms",
+      "summary": "Introduces multi-head attention as multiple self-attention heads running in parallel with concatenated outputs, allowing the model to capture diverse communication channels and improve performance.",
+      "start_time": 4922.9,
+      "end_time": 5069.0,
+      "duration": 146.1,
+      "start_timestamp": "01:22:02",
+      "end_timestamp": "01:24:29",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=4922s"
+    },
+    {
+      "title": "Transformer Architecture: Feedforward Layers and Blocks",
+      "summary": "Adds feedforward neural network layers after self-attention to allow tokens to process gathered information independently. Discusses stacking blocks of attention and feedforward layers to build deeper models.",
+      "start_time": 5067.3,
+      "end_time": 5228.7,
+      "duration": 161.4,
+      "start_timestamp": "01:24:27",
+      "end_timestamp": "01:27:08",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=5067s"
+    },
+    {
+      "title": "Training Challenges and Residual Connections",
+      "summary": "Addresses optimization difficulties in deep Transformer networks and introduces residual (skip) connections to facilitate gradient flow and improve training stability.",
+      "start_time": 5227.0,
+      "end_time": 5465.8,
+      "duration": 238.8,
+      "start_timestamp": "01:27:07",
+      "end_timestamp": "01:31:05",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=5227s"
+    },
+    {
+      "title": "Projection Layers and Feedforward Network Expansion",
+      "summary": "Details adding linear projection layers after multi-head attention and expanding feedforward network dimensions by a factor of four, following Transformer design principles to enhance model capacity.",
+      "start_time": 5463.3,
+      "end_time": 5569.0,
+      "duration": 105.7,
+      "start_timestamp": "01:31:03",
+      "end_timestamp": "01:32:49",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=5463s"
+    },
+    {
+      "title": "Layer Normalization for Stable Training",
+      "summary": "Introduces layer normalization applied before attention and feedforward layers to stabilize training. Explains differences from batch normalization and the importance of normalizing features per token.",
+      "start_time": 5578.2,
+      "end_time": 5746.9,
+      "duration": 168.7,
+      "start_timestamp": "01:32:58",
+      "end_timestamp": "01:35:46",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=5578s"
+    },
+    {
+      "title": "Finalizing Transformer Architecture and Training Results",
+      "summary": "Completes Transformer implementation with final layer normalization and reports improved validation loss. Discusses scaling the model with multiple layers, heads, and dropout for regularization.",
+      "start_time": 5744.6,
+      "end_time": 6041.6,
+      "duration": 297.0,
+      "start_timestamp": "01:35:44",
+      "end_timestamp": "01:40:41",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=5744s"
+    },
+    {
+      "title": "Scaling Up: Larger Transformer and Performance Gains",
+      "summary": "Describes scaling the Transformer with larger batch size, longer context window, higher embedding dimension, more heads and layers, and dropout. Reports significant validation loss improvement and better text generation.",
+      "start_time": 6041.6,
+      "end_time": 6185.5,
+      "duration": 143.9,
+      "start_timestamp": "01:40:41",
+      "end_timestamp": "01:43:05",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=6041s"
+    },
+    {
+      "title": "Decoder-Only Transformer vs Encoder-Decoder Architecture",
+      "summary": "Explains the difference between decoder-only Transformers used for language modeling and the encoder-decoder architecture used in machine translation. Discusses cross-attention and conditioning on input sequences.",
+      "start_time": 6183.3,
+      "end_time": 6386.1,
+      "duration": 202.8,
+      "start_timestamp": "01:43:03",
+      "end_timestamp": "01:46:26",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=6183s"
+    },
+    {
+      "title": "Overview of NanoGPT Codebase and Differences from OpenAI GPT",
+      "summary": "Walks through the NanoGPT GitHub repository structure, highlighting train.py and model.py, and compares implementation details with OpenAI's GPT including multi-head attention and feedforward layers.",
+      "start_time": 6384.0,
+      "end_time": 6505.3,
+      "duration": 121.3,
+      "start_timestamp": "01:46:24",
+      "end_timestamp": "01:48:25",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=6384s"
+    },
+    {
+      "title": "Training ChatGPT: Pre-training and Fine-tuning Stages",
+      "summary": "Describes the two main stages to train ChatGPT: large-scale pre-training on internet text to learn language modeling, and fine-tuning to align the model as an assistant using supervised data, reward modeling, and reinforcement learning.",
+      "start_time": 6545.6,
+      "end_time": 6932.0,
+      "duration": 386.4,
+      "start_timestamp": "01:49:05",
+      "end_timestamp": "01:55:32",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=6545s"
+    },
+    {
+      "title": "Conclusion and Final Thoughts",
+      "summary": "Wraps up the lecture, encouraging viewers to explore and build on the Transformer concepts learned. Emphasizes the transformative impact of these models and invites further experimentation.",
+      "start_time": 6968.3,
+      "end_time": 6981.8,
+      "duration": 13.5,
+      "start_timestamp": "01:56:08",
+      "end_timestamp": "01:56:21",
+      "youtube_timestamp": "https://youtube.com/watch?v=kCc8FmEb1nY&t=6968s"
+    }
+  ]
+}

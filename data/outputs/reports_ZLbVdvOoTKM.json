@@ -1,0 +1,347 @@
+{
+  "summary_report": {
+    "total_chapters": 18,
+    "quality_statistics": {
+      "average_quality_score": 0.6337781711543277,
+      "high_quality_chapters": 0,
+      "medium_quality_chapters": 18,
+      "low_quality_chapters": 0
+    },
+    "issues_summary": {
+      "total_issues_detected": 29,
+      "chapters_with_issues": 18
+    }
+  },
+  "quality_metrics": {
+    "content_relevance": {
+      "average": 0.584911995463901,
+      "min": 0.3706167936325073,
+      "max": 0.7927769422531128
+    },
+    "title_accuracy": {
+      "average": 0.5416665507687463,
+      "min": 0.37091243267059326,
+      "max": 0.6961513757705688
+    },
+    "summary_completeness": {
+      "average": 0.5827613169876851,
+      "min": 0.41052852262530415,
+      "max": 0.7651158627455796
+    },
+    "bert_score_f1": {
+      "average": 0.8332404229376051,
+      "min": 0.8099218010902405,
+      "max": 0.8651561141014099
+    },
+    "rouge_l_f1": {
+      "average": 0.12530392131725515,
+      "min": 0.049945711183496194,
+      "max": 0.2413793103448276
+    },
+    "search_relevance": {
+      "average": 0.3260796790321668,
+      "min": 0.11622771769762039,
+      "max": 0.5598405241966248
+    },
+    "navigation_utility": {
+      "average": 0.31189515836950804,
+      "min": 0.16064213290810586,
+      "max": 0.535684061050415
+    }
+  },
+  "issues_report": {
+    "total_issues": 29,
+    "unique_issues": 7,
+    "most_common_issues": {
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment": 17,
+      "Low content relevance - summary doesn't match transcript well": 4,
+      "Overlapping content detected with 1 other chapters": 2,
+      "Overlapping content detected with 3 other chapters": 2,
+      "Overlapping content detected with 2 other chapters": 2
+    }
+  },
+  "recommendations_report": {
+    "total_recommendations": 90,
+    "unique_recommendations": 90,
+    "priority_recommendations": [
+      {
+        "recommendation": "Recommended for query 'how to build a large language model from scratch' (relevance 0.65, navigation 0.64):\n  Title: Introduction to Building Large Language Models\n  Summary: Sha introduces the video as part of a series on using large language models (LLMs) in practice. He discusses how building LLMs from scratch was once a niche research activity but has become more accessible and relevant to businesses and enterprises today, citing Bloomberg GPT as a notable example in finance. He also notes that building an LLM from scratch is often unnecessary for most use cases, where prompt engineering or fine-tuning existing models suffice.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'key considerations for building large language models' (relevance 0.67, navigation 0.62):\n  Title: Introduction to Building Large Language Models\n  Summary: Sha introduces the video as part of a series on using large language models (LLMs) in practice. He discusses how building LLMs from scratch was once a niche research activity but has become more accessible and relevant to businesses and enterprises today, citing Bloomberg GPT as a notable example in finance. He also notes that building an LLM from scratch is often unnecessary for most use cases, where prompt engineering or fine-tuning existing models suffice.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'financial costs of training large language models' (relevance 0.56, navigation 0.52):\n  Title: Introduction to Building Large Language Models\n  Summary: Sha introduces the video as part of a series on using large language models (LLMs) in practice. He discusses how building LLMs from scratch was once a niche research activity but has become more accessible and relevant to businesses and enterprises today, citing Bloomberg GPT as a notable example in finance. He also notes that building an LLM from scratch is often unnecessary for most use cases, where prompt engineering or fine-tuning existing models suffice.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'what is prompt engineering in large language models' (relevance 0.55, navigation 0.52):\n  Title: Introduction to Building Large Language Models\n  Summary: Sha introduces the video as part of a series on using large language models (LLMs) in practice. He discusses how building LLMs from scratch was once a niche research activity but has become more accessible and relevant to businesses and enterprises today, citing Bloomberg GPT as a notable example in finance. He also notes that building an LLM from scratch is often unnecessary for most use cases, where prompt engineering or fine-tuning existing models suffice.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'should I fine-tune an existing model or build my own?' (relevance 0.36, navigation 0.37):\n  Title: Introduction to Building Large Language Models\n  Summary: Sha introduces the video as part of a series on using large language models (LLMs) in practice. He discusses how building LLMs from scratch was once a niche research activity but has become more accessible and relevant to businesses and enterprises today, citing Bloomberg GPT as a notable example in finance. He also notes that building an LLM from scratch is often unnecessary for most use cases, where prompt engineering or fine-tuning existing models suffice.",
+        "frequency": 1
+      }
+    ]
+  },
+  "manual_review_summary": {
+    "total_reviews": 1,
+    "chapters_reviewed": 1,
+    "average_scores": {
+      "overall_quality_score": 3.0,
+      "content_accuracy_score": 3.0,
+      "title_appropriateness_score": 3.0,
+      "summary_quality_score": 3.0,
+      "search_relevance_score": 3.0,
+      "navigation_utility_score": 3.0
+    },
+    "per_chapter": [
+      {
+        "chapter_index": 0,
+        "num_reviews": 1,
+        "averages": {
+          "overall_quality_score": 3.0,
+          "content_accuracy_score": 3.0,
+          "title_appropriateness_score": 3.0,
+          "summary_quality_score": 3.0,
+          "search_relevance_score": 3.0,
+          "navigation_utility_score": 3.0
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 1,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 2,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 3,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 4,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 5,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 6,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 7,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 8,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 9,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 10,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 11,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 12,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 13,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 14,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 15,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 16,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 17,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      }
+    ]
+  },
+  "search_ratings_summary": [
+    {
+      "query": "Diversity",
+      "total_searches": 1,
+      "total_results": 2,
+      "relevant_count": 1,
+      "irrelevant_count": 1,
+      "not_rated_count": 0
+    }
+  ]
+}

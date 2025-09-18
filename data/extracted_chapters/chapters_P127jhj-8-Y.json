@@ -1,0 +1,125 @@
+{
+  "video_id": "P127jhj-8-Y",
+  "chapters": [
+    {
+      "title": "Introduction to CS25: Transformers United",
+      "summary": "The video begins with a welcome and introduction to the CS25 course on transformers, a deep learning model that has revolutionized fields like natural language processing, computer vision, and reinforcement learning. The course was created and taught at Stanford in Fall 2021, aiming to provide a comprehensive understanding of transformers.",
+      "start_time": 5.8,
+      "end_time": 64.2,
+      "duration": 58.4,
+      "start_timestamp": "00:00:05",
+      "end_timestamp": "00:01:04",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=5s"
+    },
+    {
+      "title": "Meet the Instructors",
+      "summary": "The instructors introduce themselves, sharing their backgrounds in software engineering, machine learning, NLP, reinforcement learning, and robotics. They highlight their academic and industry experiences, setting the stage for the expertise behind the course.",
+      "start_time": 62.5,
+      "end_time": 188.3,
+      "duration": 125.8,
+      "start_timestamp": "00:01:02",
+      "end_timestamp": "00:03:08",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=62s"
+    },
+    {
+      "title": "Course Learning Objectives and Overview",
+      "summary": "The instructors outline the three main learning goals: understanding how transformers work, exploring their applications across various fields, and gaining insights into recent advancements and challenges. This chapter sets expectations for the knowledge viewers will gain.",
+      "start_time": 186.3,
+      "end_time": 201.8,
+      "duration": 15.5,
+      "start_timestamp": "00:03:06",
+      "end_timestamp": "00:03:21",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=186s"
+    },
+    {
+      "title": "Evolution of Attention Mechanisms and Pre-Transformer Models",
+      "summary": "An overview of the history of attention mechanisms is presented, starting from early models like RNNs and LSTMs, which had limitations in encoding long-range context. The chapter explains how these older models struggled with tasks requiring deep contextual understanding, setting the stage for the advent of transformers.",
+      "start_time": 200.0,
+      "end_time": 270.2,
+      "duration": 70.2,
+      "start_timestamp": "00:03:20",
+      "end_timestamp": "00:04:30",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=200s"
+    },
+    {
+      "title": "Transformers: The Dawn of a New Era in Deep Learning",
+      "summary": "This chapter discusses the transformative impact of transformers across multiple domains, including protein folding, reinforcement learning, and content generation. Examples like DeepMind's AlphaFold and OpenAI's language models illustrate the broad applicability and potential of transformers.",
+      "start_time": 268.2,
+      "end_time": 367.8,
+      "duration": 99.6,
+      "start_timestamp": "00:04:28",
+      "end_timestamp": "00:06:07",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=268s"
+    },
+    {
+      "title": "Foundations of Attention Mechanisms",
+      "summary": "A deep dive into the basics of attention mechanisms is provided, explaining how soft attention mimics human focus on important parts of data, such as images. The chapter contrasts soft attention with hard attention, discusses computational trade-offs, and introduces varieties like global and local attention models.",
+      "start_time": 366.6,
+      "end_time": 489.5,
+      "duration": 122.9,
+      "start_timestamp": "00:06:06",
+      "end_timestamp": "00:08:09",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=366s"
+    },
+    {
+      "title": "Self-Attention: The Core of Transformers",
+      "summary": "The concept of self-attention is introduced as the key building block of transformers. The chapter explains how self-attention operates as a search and retrieval problem using queries, keys, and values, and describes the scaled dot-product similarity and multi-head self-attention, which allows the model to capture complex token interactions.",
+      "start_time": 487.0,
+      "end_time": 653.4,
+      "duration": 166.4,
+      "start_timestamp": "00:08:07",
+      "end_timestamp": "00:10:53",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=487s"
+    },
+    {
+      "title": "Visualizing Self-Attention Computation",
+      "summary": "A step-by-step explanation of the self-attention computation process is given, illustrating how input tokens are transformed into query, key, and value vectors, how similarity scores are calculated, and how weighted sums produce the output. This visualization aids in understanding the mechanics behind self-attention layers.",
+      "start_time": 630.2,
+      "end_time": 755.8,
+      "duration": 125.6,
+      "start_timestamp": "00:10:30",
+      "end_timestamp": "00:12:35",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=630s"
+    },
+    {
+      "title": "Additional Transformer Components: Positional Encoding, Non-linearities, and Masking",
+      "summary": "This chapter covers essential components that complement self-attention in transformers. Positional embeddings provide sequence order information, non-linear feed-forward layers enable complex mappings beyond linear transformations, and masking techniques prevent data leakage during training by restricting attention to future tokens.",
+      "start_time": 752.7,
+      "end_time": 856.6,
+      "duration": 103.9,
+      "start_timestamp": "00:12:32",
+      "end_timestamp": "00:14:16",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=752s"
+    },
+    {
+      "title": "Transformer Architecture: Encoder-Decoder Design",
+      "summary": "An overview of the original transformer architecture is presented, highlighting its encoder-decoder structure used in tasks like translation. The chapter details the subcomponents of encoder blocks, including self-attention layers, feed-forward networks, layer normalization, and residual connections, and contrasts the decoder's additional cross-attention layer.",
+      "start_time": 812.8,
+      "end_time": 1018.0,
+      "duration": 205.2,
+      "start_timestamp": "00:13:32",
+      "end_timestamp": "00:16:58",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=812s"
+    },
+    {
+      "title": "Advantages of Transformers: Parallelization and Contextual Understanding",
+      "summary": "This chapter explains how transformers overcome limitations of previous models by enabling constant path length between tokens, allowing every token to attend to all others. The architecture's suitability for parallel processing on GPUs results in faster training times and better handling of long-range dependencies.",
+      "start_time": 1016.7,
+      "end_time": 1125.8,
+      "duration": 109.1,
+      "start_timestamp": "00:16:56",
+      "end_timestamp": "00:18:45",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=1016s"
+    },
+    {
+      "title": "Popular Transformer Models: GPT and BERT",
+      "summary": "The chapter introduces GPT and BERT, two influential transformer-based models. GPT uses decoder blocks for generative tasks and excels in in-context learning, while BERT uses encoder blocks and is pre-trained with masked language modeling and next sentence prediction, enabling effective fine-tuning for downstream tasks.",
+      "start_time": 1092.4,
+      "end_time": 1365.0,
+      "duration": 272.6,
+      "start_timestamp": "00:18:12",
+      "end_timestamp": "00:22:45",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=1092s"
+    }
+  ]
+}

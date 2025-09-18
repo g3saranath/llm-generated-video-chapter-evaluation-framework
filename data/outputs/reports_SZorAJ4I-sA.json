@@ -1,0 +1,233 @@
+{
+  "summary_report": {
+    "total_chapters": 8,
+    "quality_statistics": {
+      "average_quality_score": 0.6584974759766972,
+      "high_quality_chapters": 0,
+      "medium_quality_chapters": 8,
+      "low_quality_chapters": 0
+    },
+    "issues_summary": {
+      "total_issues_detected": 16,
+      "chapters_with_issues": 8
+    }
+  },
+  "quality_metrics": {
+    "content_relevance": {
+      "average": 0.7150347903370857,
+      "min": 0.5885767340660095,
+      "max": 0.7795261144638062
+    },
+    "title_accuracy": {
+      "average": 0.5685681328177452,
+      "min": 0.3042515516281128,
+      "max": 0.6657072305679321
+    },
+    "summary_completeness": {
+      "average": 0.6900509147528605,
+      "min": 0.5866148119103418,
+      "max": 0.7513986693488227
+    },
+    "bert_score_f1": {
+      "average": 0.8421591892838478,
+      "min": 0.8273302316665649,
+      "max": 0.854611337184906
+    },
+    "rouge_l_f1": {
+      "average": 0.16339638384668548,
+      "min": 0.11363636363636363,
+      "max": 0.24705882352941175
+    },
+    "search_relevance": {
+      "average": 0.47955396566540004,
+      "min": 0.3447409674525261,
+      "max": 0.5527093410491943
+    },
+    "navigation_utility": {
+      "average": 0.4376759078353643,
+      "min": 0.2737464547157288,
+      "max": 0.5297912418842315
+    }
+  },
+  "issues_report": {
+    "total_issues": 16,
+    "unique_issues": 8,
+    "most_common_issues": {
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment": 6,
+      "Overlapping content detected with 5 other chapters": 2,
+      "Overlapping content detected with 4 other chapters": 2,
+      "Overlapping content detected with 2 other chapters": 2,
+      "Overlapping content detected with 3 other chapters": 1
+    }
+  },
+  "recommendations_report": {
+    "total_recommendations": 40,
+    "unique_recommendations": 40,
+    "priority_recommendations": [
+      {
+        "recommendation": "Recommended for query 'what are transformers in machine learning' (relevance 0.78, navigation 0.75):\n  Title: Introduction to the Revolutionary Impact of Transformers\n  Summary: The video opens by highlighting the transformative breakthroughs in machine learning, focusing on the recent advent of transformer neural networks. These models have revolutionized capabilities such as playing complex games, generating realistic images, and producing text and code, marking a significant leap in AI technology.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'understanding neural networks vs transformers' (relevance 0.71, navigation 0.66):\n  Title: Introduction to the Revolutionary Impact of Transformers\n  Summary: The video opens by highlighting the transformative breakthroughs in machine learning, focusing on the recent advent of transformer neural networks. These models have revolutionized capabilities such as playing complex games, generating realistic images, and producing text and code, marking a significant leap in AI technology.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'applications of transformers in natural language processing' (relevance 0.47, navigation 0.49):\n  Title: Introduction to the Revolutionary Impact of Transformers\n  Summary: The video opens by highlighting the transformative breakthroughs in machine learning, focusing on the recent advent of transformer neural networks. These models have revolutionized capabilities such as playing complex games, generating realistic images, and producing text and code, marking a significant leap in AI technology.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'how do transformers work for text generation' (relevance 0.46, navigation 0.45):\n  Title: Introduction to the Revolutionary Impact of Transformers\n  Summary: The video opens by highlighting the transformative breakthroughs in machine learning, focusing on the recent advent of transformer neural networks. These models have revolutionized capabilities such as playing complex games, generating realistic images, and producing text and code, marking a significant leap in AI technology.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'how to use transformers for protein folding analysis' (relevance 0.25, navigation 0.30):\n  Title: Introduction to the Revolutionary Impact of Transformers\n  Summary: The video opens by highlighting the transformative breakthroughs in machine learning, focusing on the recent advent of transformer neural networks. These models have revolutionized capabilities such as playing complex games, generating realistic images, and producing text and code, marking a significant leap in AI technology.",
+        "frequency": 1
+      }
+    ]
+  },
+  "manual_review_summary": {
+    "total_reviews": 16,
+    "chapters_reviewed": 8,
+    "average_scores": {
+      "overall_quality_score": 3.125,
+      "content_accuracy_score": 3.4375,
+      "title_appropriateness_score": 3.3125,
+      "summary_quality_score": 3.375,
+      "search_relevance_score": 3.0625,
+      "navigation_utility_score": 3.0625
+    },
+    "per_chapter": [
+      {
+        "chapter_index": 0,
+        "num_reviews": 2,
+        "averages": {
+          "overall_quality_score": 3.0,
+          "content_accuracy_score": 3.5,
+          "title_appropriateness_score": 3.0,
+          "summary_quality_score": 3.5,
+          "search_relevance_score": 3.0,
+          "navigation_utility_score": 3.5
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 1,
+        "num_reviews": 2,
+        "averages": {
+          "overall_quality_score": 3.0,
+          "content_accuracy_score": 3.5,
+          "title_appropriateness_score": 3.5,
+          "summary_quality_score": 3.5,
+          "search_relevance_score": 3.5,
+          "navigation_utility_score": 3.0
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 2,
+        "num_reviews": 2,
+        "averages": {
+          "overall_quality_score": 3.0,
+          "content_accuracy_score": 3.5,
+          "title_appropriateness_score": 2.0,
+          "summary_quality_score": 3.0,
+          "search_relevance_score": 3.0,
+          "navigation_utility_score": 3.0
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 3,
+        "num_reviews": 2,
+        "averages": {
+          "overall_quality_score": 3.0,
+          "content_accuracy_score": 3.5,
+          "title_appropriateness_score": 4.0,
+          "summary_quality_score": 3.5,
+          "search_relevance_score": 3.0,
+          "navigation_utility_score": 3.0
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 4,
+        "num_reviews": 2,
+        "averages": {
+          "overall_quality_score": 3.5,
+          "content_accuracy_score": 4.0,
+          "title_appropriateness_score": 3.5,
+          "summary_quality_score": 3.5,
+          "search_relevance_score": 3.0,
+          "navigation_utility_score": 3.0
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 5,
+        "num_reviews": 2,
+        "averages": {
+          "overall_quality_score": 3.5,
+          "content_accuracy_score": 3.0,
+          "title_appropriateness_score": 4.0,
+          "summary_quality_score": 3.5,
+          "search_relevance_score": 3.0,
+          "navigation_utility_score": 3.0
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 6,
+        "num_reviews": 2,
+        "averages": {
+          "overall_quality_score": 3.0,
+          "content_accuracy_score": 3.0,
+          "title_appropriateness_score": 3.0,
+          "summary_quality_score": 3.5,
+          "search_relevance_score": 3.0,
+          "navigation_utility_score": 3.0
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 7,
+        "num_reviews": 2,
+        "averages": {
+          "overall_quality_score": 3.0,
+          "content_accuracy_score": 3.5,
+          "title_appropriateness_score": 3.5,
+          "summary_quality_score": 3.0,
+          "search_relevance_score": 3.0,
+          "navigation_utility_score": 3.0
+        },
+        "recommendation_ratings": {}
+      }
+    ]
+  },
+  "search_ratings_summary": [
+    {
+      "query": "BERT",
+      "total_searches": 1,
+      "total_results": 2,
+      "relevant_count": 2,
+      "irrelevant_count": 0,
+      "not_rated_count": 0
+    },
+    {
+      "query": "Data",
+      "total_searches": 1,
+      "total_results": 2,
+      "relevant_count": 0,
+      "irrelevant_count": 2,
+      "not_rated_count": 0
+    },
+    {
+      "query": "RNN",
+      "total_searches": 1,
+      "total_results": 3,
+      "relevant_count": 2,
+      "irrelevant_count": 0,
+      "not_rated_count": 1
+    }
+  ]
+}

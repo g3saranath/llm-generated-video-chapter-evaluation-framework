@@ -1,0 +1,1368 @@
+[
+  {
+    "chapter_data": {
+      "title": "Introduction to CS25: Transformers United",
+      "summary": "The video begins with a welcome and introduction to the CS25 course on transformers, a deep learning model that has revolutionized fields like natural language processing, computer vision, and reinforcement learning. The course was created and taught at Stanford in Fall 2021, aiming to provide a comprehensive understanding of transformers.",
+      "start_time": 5.8,
+      "end_time": 64.2,
+      "duration": 58.4,
+      "start_timestamp": "00:00:05",
+      "end_timestamp": "00:01:04",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=5s"
+    },
+    "transcript_segment": "hey everyone welcome to the first an introductory lecture for cs25 transformers united so cs25 was a class that the three of us created and taught at stanford in the fall of 2021 and the subject of the class is not as the picture might suggest it's not about robots that can transform into cars it's about deep learning models and specifically the particular kind of deep learning models that have revolutionized multiple fields starting from natural language processing uh to things like computer vision and reinforcement learning to name a few um we have an exciting set of videos lined up for you we have some truly fantastic speakers come and give talks about how they were applying transformers in their own research and we hope you will enjoy and learn from these talks um this video is purely an introductory lecture to talk a little bit about transformers and uh before we get started i'd like to introduce the",
+    "evaluation_metrics": {
+      "content_relevance": 0.8919418454170227,
+      "title_accuracy": 0.7268527746200562,
+      "summary_completeness": 0.8391348716824554,
+      "bert_score_precision": 0.907401978969574,
+      "bert_score_recall": 0.8380201458930969,
+      "bert_score_f1": 0.8713321089744568,
+      "rouge_1_f1": 0.3644859813084112,
+      "rouge_2_f1": 0.14150943396226412,
+      "rouge_l_f1": 0.2336448598130841,
+      "boundary_accuracy": 0.8,
+      "temporal_consistency": 1.0,
+      "duration_appropriateness": 1.0,
+      "redundancy_score": 0.44762659072875977,
+      "distinctiveness": 0.5523734092712402,
+      "search_relevance": 0.5564016461372375,
+      "keyword_coverage": 0.08450704225352113,
+      "navigation_utility": 0.5440656423568726,
+      "overall_score": 0.7486397999270121,
+      "evaluation_timestamp": "",
+      "chapter_index": 0,
+      "confidence_score": 0.0
+    },
+    "issues_detected": [
+      "Overlapping content detected with 2 other chapters"
+    ],
+    "recommendations": [
+      "Recommended for query 'transformers deep learning explained' (relevance 0.72, navigation 0.68):\n  Title: Introduction to CS25: Transformers United\n  Summary: The video begins with a welcome and introduction to the CS25 course on transformers, a deep learning model that has revolutionized fields like natural language processing, computer vision, and reinforcement learning. The course was created and taught at Stanford in Fall 2021, aiming to provide a comprehensive understanding of transformers.",
+      "Recommended for query 'what are the benefits of using transformers in reinforcement learning?' (relevance 0.54, navigation 0.53):\n  Title: Introduction to CS25: Transformers United\n  Summary: The video begins with a welcome and introduction to the CS25 course on transformers, a deep learning model that has revolutionized fields like natural language processing, computer vision, and reinforcement learning. The course was created and taught at Stanford in Fall 2021, aiming to provide a comprehensive understanding of transformers.",
+      "Recommended for query 'applications of transformers in computer vision' (relevance 0.53, navigation 0.52):\n  Title: Introduction to CS25: Transformers United\n  Summary: The video begins with a welcome and introduction to the CS25 course on transformers, a deep learning model that has revolutionized fields like natural language processing, computer vision, and reinforcement learning. The course was created and taught at Stanford in Fall 2021, aiming to provide a comprehensive understanding of transformers.",
+      "Recommended for query 'how do transformers work in natural language processing?' (relevance 0.51, navigation 0.49):\n  Title: Introduction to CS25: Transformers United\n  Summary: The video begins with a welcome and introduction to the CS25 course on transformers, a deep learning model that has revolutionized fields like natural language processing, computer vision, and reinforcement learning. The course was created and taught at Stanford in Fall 2021, aiming to provide a comprehensive understanding of transformers.",
+      "Recommended for query 'introductory lecture on deep learning models at Stanford' (relevance 0.49, navigation 0.50):\n  Title: Introduction to CS25: Transformers United\n  Summary: The video begins with a welcome and introduction to the CS25 course on transformers, a deep learning model that has revolutionized fields like natural language processing, computer vision, and reinforcement learning. The course was created and taught at Stanford in Fall 2021, aiming to provide a comprehensive understanding of transformers."
+    ],
+    "semantic_keywords": [
+      "united",
+      "transformers",
+      "begins",
+      "processing",
+      "aiming",
+      "provide",
+      "created",
+      "2021",
+      "fall",
+      "model"
+    ],
+    "content_themes": [
+      "general content"
+    ],
+    "search_evaluations": [
+      {
+        "query": "transformers deep learning explained",
+        "chapter_relevance_scores": {
+          "0": 0.7175496220588684
+        },
+        "navigation_utility_scores": {
+          "0": 0.682636022567749
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "how do transformers work in natural language processing?",
+        "chapter_relevance_scores": {
+          "0": 0.5054548978805542
+        },
+        "navigation_utility_scores": {
+          "0": 0.4946504235267639
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "applications of transformers in computer vision",
+        "chapter_relevance_scores": {
+          "0": 0.5297315120697021
+        },
+        "navigation_utility_scores": {
+          "0": 0.5161925554275513
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "what are the benefits of using transformers in reinforcement learning?",
+        "chapter_relevance_scores": {
+          "0": 0.537929892539978
+        },
+        "navigation_utility_scores": {
+          "0": 0.5274089574813843
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "introductory lecture on deep learning models at Stanford",
+        "chapter_relevance_scores": {
+          "0": 0.49134230613708496
+        },
+        "navigation_utility_scores": {
+          "0": 0.4994402527809143
+        },
+        "user_feedback": null
+      }
+    ]
+  },
+  {
+    "chapter_data": {
+      "title": "Meet the Instructors",
+      "summary": "The instructors introduce themselves, sharing their backgrounds in software engineering, machine learning, NLP, reinforcement learning, and robotics. They highlight their academic and industry experiences, setting the stage for the expertise behind the course.",
+      "start_time": 62.5,
+      "end_time": 188.3,
+      "duration": 125.8,
+      "start_timestamp": "00:01:02",
+      "end_timestamp": "00:03:08",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=62s"
+    },
+    "transcript_segment": "instructors so my name is advair i am a software engineer at a company called applied intuition before this i was a master's student in cs at stanford and i'm one i am one of the co-instructors for cs25 uh chaitanya div if the two of you could introduce yourselves so hi everyone i am a phd student at sample before this i was uh pursuing a master's here um researching a lot in general modeling enforcement learning and robotics uh so nice to meet you yeah that was div for since he didn't say his name chaitanya if you want to introduce yourself yeah uh hi everyone my name is chaitanya and i'm currently working as an ml engineer at a startup uh called move works before that i was a master student at stanford specializing in nlp and was a member of the prize filling stanford's team for the alexa price challenge right awesome so moving on to the rest of this talk essentially what we hope you will learn watching these videos and what we hope uh the people who took our class in the fall of 2021 learned is three things one is we hope you will have an understanding of how transformers work secondly we hope you will learn and by the end of these talks understand how transformers are being applied beyond just natural language processing and thirdly we hope that some of these talks will spark some new ideas within you and hopefully lead to new directions of research new kinds of innovation and things of that sort and to begin we're going to talk a little bit about transformers and introduce some of the context behind transformers as well and for that i'd like to hand it off to div so hi everyone um so welcome to our transformer seminar uh so i will start first with an overview of the attention timeline uh",
+    "evaluation_metrics": {
+      "content_relevance": 0.5432766675949097,
+      "title_accuracy": 0.4982735812664032,
+      "summary_completeness": 0.542140131068409,
+      "bert_score_precision": 0.8494665026664734,
+      "bert_score_recall": 0.7631451487541199,
+      "bert_score_f1": 0.8039954900741577,
+      "rouge_1_f1": 0.09340659340659341,
+      "rouge_2_f1": 0.022099447513812157,
+      "rouge_l_f1": 0.07142857142857142,
+      "boundary_accuracy": 0.8,
+      "temporal_consistency": 1.0,
+      "duration_appropriateness": 1.0,
+      "redundancy_score": 0.1855309158563614,
+      "distinctiveness": 0.8144690841436386,
+      "search_relevance": 0.1815191764384508,
+      "keyword_coverage": 0.02112676056338028,
+      "navigation_utility": 0.2682335913181305,
+      "overall_score": 0.6174283027917539,
+      "evaluation_timestamp": "",
+      "chapter_index": 1,
+      "confidence_score": 0.0
+    },
+    "issues_detected": [
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment"
+    ],
+    "recommendations": [
+      "Recommended for query 'introductory lecture on deep learning models at Stanford' (relevance 0.39, navigation 0.38):\n  Title: Meet the Instructors\n  Summary: The instructors introduce themselves, sharing their backgrounds in software engineering, machine learning, NLP, reinforcement learning, and robotics. They highlight their academic and industry experiences, setting the stage for the expertise behind the course.",
+      "Recommended for query 'transformers deep learning explained' (relevance 0.19, navigation 0.32):\n  Title: Meet the Instructors\n  Summary: The instructors introduce themselves, sharing their backgrounds in software engineering, machine learning, NLP, reinforcement learning, and robotics. They highlight their academic and industry experiences, setting the stage for the expertise behind the course.",
+      "Recommended for query 'what are the benefits of using transformers in reinforcement learning?' (relevance 0.17, navigation 0.27):\n  Title: Meet the Instructors\n  Summary: The instructors introduce themselves, sharing their backgrounds in software engineering, machine learning, NLP, reinforcement learning, and robotics. They highlight their academic and industry experiences, setting the stage for the expertise behind the course.",
+      "Recommended for query 'how do transformers work in natural language processing?' (relevance 0.13, navigation 0.23):\n  Title: Meet the Instructors\n  Summary: The instructors introduce themselves, sharing their backgrounds in software engineering, machine learning, NLP, reinforcement learning, and robotics. They highlight their academic and industry experiences, setting the stage for the expertise behind the course.",
+      "Recommended for query 'applications of transformers in computer vision' (relevance 0.02, navigation 0.14):\n  Title: Meet the Instructors\n  Summary: The instructors introduce themselves, sharing their backgrounds in software engineering, machine learning, NLP, reinforcement learning, and robotics. They highlight their academic and industry experiences, setting the stage for the expertise behind the course."
+    ],
+    "semantic_keywords": [
+      "instructors",
+      "academic",
+      "highlight",
+      "engineering",
+      "backgrounds",
+      "industry",
+      "behind",
+      "setting",
+      "themselves",
+      "stage"
+    ],
+    "content_themes": [
+      "general content"
+    ],
+    "search_evaluations": [
+      {
+        "query": "transformers deep learning explained",
+        "chapter_relevance_scores": {
+          "0": 0.18791040778160095
+        },
+        "navigation_utility_scores": {
+          "0": 0.3216775059700012
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "how do transformers work in natural language processing?",
+        "chapter_relevance_scores": {
+          "0": 0.13445983827114105
+        },
+        "navigation_utility_scores": {
+          "0": 0.23326411843299866
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "applications of transformers in computer vision",
+        "chapter_relevance_scores": {
+          "0": 0.017581457272171974
+        },
+        "navigation_utility_scores": {
+          "0": 0.13610780239105225
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "what are the benefits of using transformers in reinforcement learning?",
+        "chapter_relevance_scores": {
+          "0": 0.1728230118751526
+        },
+        "navigation_utility_scores": {
+          "0": 0.2698727548122406
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "introductory lecture on deep learning models at Stanford",
+        "chapter_relevance_scores": {
+          "0": 0.3948211669921875
+        },
+        "navigation_utility_scores": {
+          "0": 0.38024577498435974
+        },
+        "user_feedback": null
+      }
+    ]
+  },
+  {
+    "chapter_data": {
+      "title": "Course Learning Objectives and Overview",
+      "summary": "The instructors outline the three main learning goals: understanding how transformers work, exploring their applications across various fields, and gaining insights into recent advancements and challenges. This chapter sets expectations for the knowledge viewers will gain.",
+      "start_time": 186.3,
+      "end_time": 201.8,
+      "duration": 15.5,
+      "start_timestamp": "00:03:06",
+      "end_timestamp": "00:03:21",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=186s"
+    },
+    "transcript_segment": "overview of the attention timeline uh and how it came to be uh the the key idea about transformers was the self-potential mechanism uh that was developed in 2017 and this all started with this one paper called retention is all you need i was on youtube uh before 2017 we used to have this prehistoric",
+    "evaluation_metrics": {
+      "content_relevance": 0.5794498920440674,
+      "title_accuracy": 0.19189539551734924,
+      "summary_completeness": 0.5791849136352539,
+      "bert_score_precision": 0.8425809741020203,
+      "bert_score_recall": 0.8109071254730225,
+      "bert_score_f1": 0.8264406323432922,
+      "rouge_1_f1": 0.17204301075268819,
+      "rouge_2_f1": 0.0,
+      "rouge_l_f1": 0.1075268817204301,
+      "boundary_accuracy": 0.8,
+      "temporal_consistency": 1.0,
+      "duration_appropriateness": 0.3,
+      "redundancy_score": 0.4051441252231598,
+      "distinctiveness": 0.5948558747768402,
+      "search_relevance": 0.5038152456283569,
+      "keyword_coverage": 0.07042253521126761,
+      "navigation_utility": 0.46302163004875185,
+      "overall_score": 0.5684969524170763,
+      "evaluation_timestamp": "",
+      "chapter_index": 2,
+      "confidence_score": 0.0
+    },
+    "issues_detected": [
+      "Poor title accuracy - title doesn't describe content accurately",
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment",
+      "Inappropriate duration - chapter is too short or too long",
+      "Overlapping content detected with 1 other chapters"
+    ],
+    "recommendations": [
+      "Recommended for query 'transformers deep learning explained' (relevance 0.65, navigation 0.59):\n  Title: Course Learning Objectives and Overview\n  Summary: The instructors outline the three main learning goals: understanding how transformers work, exploring their applications across various fields, and gaining insights into recent advancements and challenges. This chapter sets expectations for the knowledge viewers will gain.",
+      "Recommended for query 'what are the benefits of using transformers in reinforcement learning?' (relevance 0.62, navigation 0.54):\n  Title: Course Learning Objectives and Overview\n  Summary: The instructors outline the three main learning goals: understanding how transformers work, exploring their applications across various fields, and gaining insights into recent advancements and challenges. This chapter sets expectations for the knowledge viewers will gain.",
+      "Recommended for query 'how do transformers work in natural language processing?' (relevance 0.48, navigation 0.48):\n  Title: Course Learning Objectives and Overview\n  Summary: The instructors outline the three main learning goals: understanding how transformers work, exploring their applications across various fields, and gaining insights into recent advancements and challenges. This chapter sets expectations for the knowledge viewers will gain.",
+      "Recommended for query 'applications of transformers in computer vision' (relevance 0.43, navigation 0.45):\n  Title: Course Learning Objectives and Overview\n  Summary: The instructors outline the three main learning goals: understanding how transformers work, exploring their applications across various fields, and gaining insights into recent advancements and challenges. This chapter sets expectations for the knowledge viewers will gain.",
+      "Recommended for query 'introductory lecture on deep learning models at Stanford' (relevance 0.33, navigation 0.25):\n  Title: Course Learning Objectives and Overview\n  Summary: The instructors outline the three main learning goals: understanding how transformers work, exploring their applications across various fields, and gaining insights into recent advancements and challenges. This chapter sets expectations for the knowledge viewers will gain."
+    ],
+    "semantic_keywords": [
+      "outline",
+      "gaining",
+      "transformers",
+      "instructors",
+      "gain",
+      "chapter",
+      "expectations",
+      "challenges",
+      "applications",
+      "various"
+    ],
+    "content_themes": [
+      "general content"
+    ],
+    "search_evaluations": [
+      {
+        "query": "transformers deep learning explained",
+        "chapter_relevance_scores": {
+          "0": 0.6475964784622192
+        },
+        "navigation_utility_scores": {
+          "0": 0.5906127095222473
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "how do transformers work in natural language processing?",
+        "chapter_relevance_scores": {
+          "0": 0.48291632533073425
+        },
+        "navigation_utility_scores": {
+          "0": 0.48377639055252075
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "applications of transformers in computer vision",
+        "chapter_relevance_scores": {
+          "0": 0.4338206350803375
+        },
+        "navigation_utility_scores": {
+          "0": 0.45285752415657043
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "what are the benefits of using transformers in reinforcement learning?",
+        "chapter_relevance_scores": {
+          "0": 0.6198163032531738
+        },
+        "navigation_utility_scores": {
+          "0": 0.5401663780212402
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "introductory lecture on deep learning models at Stanford",
+        "chapter_relevance_scores": {
+          "0": 0.3349264860153198
+        },
+        "navigation_utility_scores": {
+          "0": 0.24769514799118042
+        },
+        "user_feedback": null
+      }
+    ]
+  },
+  {
+    "chapter_data": {
+      "title": "Evolution of Attention Mechanisms and Pre-Transformer Models",
+      "summary": "An overview of the history of attention mechanisms is presented, starting from early models like RNNs and LSTMs, which had limitations in encoding long-range context. The chapter explains how these older models struggled with tasks requiring deep contextual understanding, setting the stage for the advent of transformers.",
+      "start_time": 200.0,
+      "end_time": 270.2,
+      "duration": 70.2,
+      "start_timestamp": "00:03:20",
+      "end_timestamp": "00:04:30",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=200s"
+    },
+    "transcript_segment": "2017 we used to have this prehistoric era where we had uh older models like rnns lstms and uh simpler attention mechanisms and eventually like the growth in transformers has exploded into other fields and has become prominent in like all of machine learning and uh i'll go and see and show how this has been used so in the prehistoric era there used to be rnns there were different models like the sequencer sequence lstms gius they were good at encoding um some sort of memory but they did not work for encoding long sequences and they were very bad at encoding context so here is an example where you if you have a sentence like i grew up in france dot dot dot so i speak fluent dash then you want to fill this with like a french based on the context but like a lsd model might not know what it is and might just make a very big mistake here similarly we can show some sort of correlation map uh here where if we have a pronoun like it we wanted to correlate to one of the past nouns that we have seen so far like a animal um but again uh older models were like really not good at this context encoding so where we are currently now is on the verge of takeoff we've begun to realize",
+    "evaluation_metrics": {
+      "content_relevance": 0.6199245452880859,
+      "title_accuracy": 0.5228078365325928,
+      "summary_completeness": 0.6122857900766226,
+      "bert_score_precision": 0.8646343946456909,
+      "bert_score_recall": 0.7999366521835327,
+      "bert_score_f1": 0.831028163433075,
+      "rouge_1_f1": 0.19081272084805653,
+      "rouge_2_f1": 0.042704626334519574,
+      "rouge_l_f1": 0.09187279151943462,
+      "boundary_accuracy": 0.8,
+      "temporal_consistency": 1.0,
+      "duration_appropriateness": 1.0,
+      "redundancy_score": 0.5078779458999634,
+      "distinctiveness": 0.4921220541000366,
+      "search_relevance": 0.4226057529449463,
+      "keyword_coverage": 0.09859154929577464,
+      "navigation_utility": 0.3407899737358093,
+      "overall_score": 0.629134156237189,
+      "evaluation_timestamp": "",
+      "chapter_index": 3,
+      "confidence_score": 0.0
+    },
+    "issues_detected": [
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment",
+      "Overlapping content detected with 3 other chapters"
+    ],
+    "recommendations": [
+      "Recommended for query 'how do transformers work in natural language processing?' (relevance 0.52, navigation 0.48):\n  Title: Evolution of Attention Mechanisms and Pre-Transformer Models\n  Summary: An overview of the history of attention mechanisms is presented, starting from early models like RNNs and LSTMs, which had limitations in encoding long-range context. The chapter explains how these older models struggled with tasks requiring deep contextual understanding, setting the stage for the advent of transformers.",
+      "Recommended for query 'transformers deep learning explained' (relevance 0.54, navigation 0.41):\n  Title: Evolution of Attention Mechanisms and Pre-Transformer Models\n  Summary: An overview of the history of attention mechanisms is presented, starting from early models like RNNs and LSTMs, which had limitations in encoding long-range context. The chapter explains how these older models struggled with tasks requiring deep contextual understanding, setting the stage for the advent of transformers.",
+      "Recommended for query 'what are the benefits of using transformers in reinforcement learning?' (relevance 0.43, navigation 0.32):\n  Title: Evolution of Attention Mechanisms and Pre-Transformer Models\n  Summary: An overview of the history of attention mechanisms is presented, starting from early models like RNNs and LSTMs, which had limitations in encoding long-range context. The chapter explains how these older models struggled with tasks requiring deep contextual understanding, setting the stage for the advent of transformers.",
+      "Recommended for query 'introductory lecture on deep learning models at Stanford' (relevance 0.31, navigation 0.29):\n  Title: Evolution of Attention Mechanisms and Pre-Transformer Models\n  Summary: An overview of the history of attention mechanisms is presented, starting from early models like RNNs and LSTMs, which had limitations in encoding long-range context. The chapter explains how these older models struggled with tasks requiring deep contextual understanding, setting the stage for the advent of transformers.",
+      "Recommended for query 'applications of transformers in computer vision' (relevance 0.32, navigation 0.21):\n  Title: Evolution of Attention Mechanisms and Pre-Transformer Models\n  Summary: An overview of the history of attention mechanisms is presented, starting from early models like RNNs and LSTMs, which had limitations in encoding long-range context. The chapter explains how these older models struggled with tasks requiring deep contextual understanding, setting the stage for the advent of transformers."
+    ],
+    "semantic_keywords": [
+      "models",
+      "transformers",
+      "transformer",
+      "older",
+      "lstms",
+      "explains",
+      "attention",
+      "chapter",
+      "setting",
+      "tasks"
+    ],
+    "content_themes": [
+      "general content"
+    ],
+    "search_evaluations": [
+      {
+        "query": "transformers deep learning explained",
+        "chapter_relevance_scores": {
+          "0": 0.5404282808303833
+        },
+        "navigation_utility_scores": {
+          "0": 0.40676629543304443
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "how do transformers work in natural language processing?",
+        "chapter_relevance_scores": {
+          "0": 0.5232812166213989
+        },
+        "navigation_utility_scores": {
+          "0": 0.477944940328598
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "applications of transformers in computer vision",
+        "chapter_relevance_scores": {
+          "0": 0.3180631995201111
+        },
+        "navigation_utility_scores": {
+          "0": 0.21079587936401367
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "what are the benefits of using transformers in reinforcement learning?",
+        "chapter_relevance_scores": {
+          "0": 0.42618149518966675
+        },
+        "navigation_utility_scores": {
+          "0": 0.3174310624599457
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "introductory lecture on deep learning models at Stanford",
+        "chapter_relevance_scores": {
+          "0": 0.3050745725631714
+        },
+        "navigation_utility_scores": {
+          "0": 0.2910116910934448
+        },
+        "user_feedback": null
+      }
+    ]
+  },
+  {
+    "chapter_data": {
+      "title": "Transformers: The Dawn of a New Era in Deep Learning",
+      "summary": "This chapter discusses the transformative impact of transformers across multiple domains, including protein folding, reinforcement learning, and content generation. Examples like DeepMind's AlphaFold and OpenAI's language models illustrate the broad applicability and potential of transformers.",
+      "start_time": 268.2,
+      "end_time": 367.8,
+      "duration": 99.6,
+      "start_timestamp": "00:04:28",
+      "end_timestamp": "00:06:07",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=268s"
+    },
+    "transcript_segment": "verge of takeoff we've begun to realize the potential of transformers in different fields we have started to use them to solve long sequence problems in protein folding such as like the alpha pole model from gp from open from deepmind which gets 95 percent accuracy on different challenges in offline rl uh we can use it for few shot and zero structuralization for text and image generation and we can also use this for like content generation so here is example from openai where you can give a different text prompt and have an ai generator fictional image for you and uh so there's a talk on this that you can also watch in youtube which basically says that ls students are dead and long-lived transformers so what's the future so we can enable a lot more applications for transformers um they can be applied to any form of sequence modeling so you can use we could use them for video understanding we can use them for finance and a lot more so basically imagine all sorts of genetic modeling problems nevertheless there are a lot of missing ingredients so like the human brain we need some sort of external memory unit which is the hippocampus for us and they are saying some early works here so one nice work you might want to check out is called this neural tuning machines similarly uh the current attention mechanisms are very computationally complex in terms of time and they scale correctly which we will discuss later and we want to make them more linear and the third problem is that we want to align our current sort of language models with the how the human brain works and human values and this also big issue okay so now i will deep dive deep dive i will",
+    "evaluation_metrics": {
+      "content_relevance": 0.6746517419815063,
+      "title_accuracy": 0.6116991639137268,
+      "summary_completeness": 0.6495805485147825,
+      "bert_score_precision": 0.8738151788711548,
+      "bert_score_recall": 0.7988136410713196,
+      "bert_score_f1": 0.8346328735351562,
+      "rouge_1_f1": 0.14985590778097985,
+      "rouge_2_f1": 0.028985507246376812,
+      "rouge_l_f1": 0.09221902017291066,
+      "boundary_accuracy": 0.8,
+      "temporal_consistency": 1.0,
+      "duration_appropriateness": 1.0,
+      "redundancy_score": 0.48032045364379883,
+      "distinctiveness": 0.5196795463562012,
+      "search_relevance": 0.5548198580741882,
+      "keyword_coverage": 0.056338028169014086,
+      "navigation_utility": 0.5061568200588227,
+      "overall_score": 0.6625479102884547,
+      "evaluation_timestamp": "",
+      "chapter_index": 4,
+      "confidence_score": 0.0
+    },
+    "issues_detected": [
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment",
+      "Overlapping content detected with 1 other chapters"
+    ],
+    "recommendations": [
+      "Recommended for query 'transformers deep learning explained' (relevance 0.78, navigation 0.65):\n  Title: Transformers: The Dawn of a New Era in Deep Learning\n  Summary: This chapter discusses the transformative impact of transformers across multiple domains, including protein folding, reinforcement learning, and content generation. Examples like DeepMind's AlphaFold and OpenAI's language models illustrate the broad applicability and potential of transformers.",
+      "Recommended for query 'what are the benefits of using transformers in reinforcement learning?' (relevance 0.65, navigation 0.60):\n  Title: Transformers: The Dawn of a New Era in Deep Learning\n  Summary: This chapter discusses the transformative impact of transformers across multiple domains, including protein folding, reinforcement learning, and content generation. Examples like DeepMind's AlphaFold and OpenAI's language models illustrate the broad applicability and potential of transformers.",
+      "Recommended for query 'how do transformers work in natural language processing?' (relevance 0.58, navigation 0.53):\n  Title: Transformers: The Dawn of a New Era in Deep Learning\n  Summary: This chapter discusses the transformative impact of transformers across multiple domains, including protein folding, reinforcement learning, and content generation. Examples like DeepMind's AlphaFold and OpenAI's language models illustrate the broad applicability and potential of transformers.",
+      "Recommended for query 'applications of transformers in computer vision' (relevance 0.37, navigation 0.42):\n  Title: Transformers: The Dawn of a New Era in Deep Learning\n  Summary: This chapter discusses the transformative impact of transformers across multiple domains, including protein folding, reinforcement learning, and content generation. Examples like DeepMind's AlphaFold and OpenAI's language models illustrate the broad applicability and potential of transformers.",
+      "Recommended for query 'introductory lecture on deep learning models at Stanford' (relevance 0.40, navigation 0.34):\n  Title: Transformers: The Dawn of a New Era in Deep Learning\n  Summary: This chapter discusses the transformative impact of transformers across multiple domains, including protein folding, reinforcement learning, and content generation. Examples like DeepMind's AlphaFold and OpenAI's language models illustrate the broad applicability and potential of transformers."
+    ],
+    "semantic_keywords": [
+      "generation",
+      "models",
+      "transformers",
+      "discusses",
+      "chapter",
+      "folding",
+      "transformative",
+      "dawn",
+      "deepmind",
+      "protein"
+    ],
+    "content_themes": [
+      "general content"
+    ],
+    "search_evaluations": [
+      {
+        "query": "transformers deep learning explained",
+        "chapter_relevance_scores": {
+          "0": 0.7771044969558716
+        },
+        "navigation_utility_scores": {
+          "0": 0.6453219652175903
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "how do transformers work in natural language processing?",
+        "chapter_relevance_scores": {
+          "0": 0.5759096741676331
+        },
+        "navigation_utility_scores": {
+          "0": 0.5284301042556763
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "applications of transformers in computer vision",
+        "chapter_relevance_scores": {
+          "0": 0.37240028381347656
+        },
+        "navigation_utility_scores": {
+          "0": 0.4182281792163849
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "what are the benefits of using transformers in reinforcement learning?",
+        "chapter_relevance_scores": {
+          "0": 0.6474327445030212
+        },
+        "navigation_utility_scores": {
+          "0": 0.6005495190620422
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "introductory lecture on deep learning models at Stanford",
+        "chapter_relevance_scores": {
+          "0": 0.4012520909309387
+        },
+        "navigation_utility_scores": {
+          "0": 0.33825433254241943
+        },
+        "user_feedback": null
+      }
+    ]
+  },
+  {
+    "chapter_data": {
+      "title": "Foundations of Attention Mechanisms",
+      "summary": "A deep dive into the basics of attention mechanisms is provided, explaining how soft attention mimics human focus on important parts of data, such as images. The chapter contrasts soft attention with hard attention, discusses computational trade-offs, and introduces varieties like global and local attention models.",
+      "start_time": 366.6,
+      "end_time": 489.5,
+      "duration": 122.9,
+      "start_timestamp": "00:06:06",
+      "end_timestamp": "00:08:09",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=366s"
+    },
+    "transcript_segment": "will dive deeper into the tension mechanisms and uh show how they came out to be so initially there used to be very simple mechanisms um where attention was inspired by the process of importance reading or putting attention on different parts of uh image where like similar to a human where you might focus more on like a foreground uh if you have an image of a dog compared to like the rest of the background so in the case of soft retention what you do is you learn this simple soft attention weighting for each pixel which can be a weight between zero to one uh the problem over here is that this is a very expensive computation and then you can as show as as it's shown in the figure on the left uh you can see we are calculating this attention for the whole image um what you can do instead is you can just uh calculate a zero to one attention map where we directly put a one on wherever the dog is and a zero wherever uh it's a background uh this is like uh less computation expensive but the problem is it's non-differentiable and makes things harder to drain uh going forwards we also have different varieties of basic attention mechanisms that came that were proposed before self-retention uh so the first variety here is global tension models so in global attention models for each hidden layer input a hidden layer output you learn an attention weight uh a of b and this is element twice multiplied with your current output to calculate your final output uh yt um similarly you have local attention models where instead of calculating the global attention for over the whole sequence length you only calculate the attention over a small window and uh and then you wait by the tension of the window in into like the current output uh to get like the final output uh so moving on uh i will pass on to chattanooga to discuss self-retention mechanisms and transforms yeah uh thank you this for covering a brief overview of how the primitive versions of attention work now just before we talk about self-attention uh just a bit of a trivia",
+    "evaluation_metrics": {
+      "content_relevance": 0.657180905342102,
+      "title_accuracy": 0.6402240991592407,
+      "summary_completeness": 0.6380635648533919,
+      "bert_score_precision": 0.8569661378860474,
+      "bert_score_recall": 0.7774967551231384,
+      "bert_score_f1": 0.8152995109558105,
+      "rouge_1_f1": 0.16203703703703703,
+      "rouge_2_f1": 0.03255813953488372,
+      "rouge_l_f1": 0.10185185185185185,
+      "boundary_accuracy": 0.8,
+      "temporal_consistency": 1.0,
+      "duration_appropriateness": 1.0,
+      "redundancy_score": 0.340742290019989,
+      "distinctiveness": 0.659257709980011,
+      "search_relevance": 0.23048818707466126,
+      "keyword_coverage": 0.06338028169014084,
+      "navigation_utility": 0.262542188167572,
+      "overall_score": 0.6509459581243627,
+      "evaluation_timestamp": "",
+      "chapter_index": 5,
+      "confidence_score": 0.0
+    },
+    "issues_detected": [
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment",
+      "Overlapping content detected with 1 other chapters"
+    ],
+    "recommendations": [
+      "Recommended for query 'transformers deep learning explained' (relevance 0.27, navigation 0.31):\n  Title: Foundations of Attention Mechanisms\n  Summary: A deep dive into the basics of attention mechanisms is provided, explaining how soft attention mimics human focus on important parts of data, such as images. The chapter contrasts soft attention with hard attention, discusses computational trade-offs, and introduces varieties like global and local attention models.",
+      "Recommended for query 'how do transformers work in natural language processing?' (relevance 0.28, navigation 0.26):\n  Title: Foundations of Attention Mechanisms\n  Summary: A deep dive into the basics of attention mechanisms is provided, explaining how soft attention mimics human focus on important parts of data, such as images. The chapter contrasts soft attention with hard attention, discusses computational trade-offs, and introduces varieties like global and local attention models.",
+      "Recommended for query 'introductory lecture on deep learning models at Stanford' (relevance 0.25, navigation 0.29):\n  Title: Foundations of Attention Mechanisms\n  Summary: A deep dive into the basics of attention mechanisms is provided, explaining how soft attention mimics human focus on important parts of data, such as images. The chapter contrasts soft attention with hard attention, discusses computational trade-offs, and introduces varieties like global and local attention models.",
+      "Recommended for query 'what are the benefits of using transformers in reinforcement learning?' (relevance 0.17, navigation 0.23):\n  Title: Foundations of Attention Mechanisms\n  Summary: A deep dive into the basics of attention mechanisms is provided, explaining how soft attention mimics human focus on important parts of data, such as images. The chapter contrasts soft attention with hard attention, discusses computational trade-offs, and introduces varieties like global and local attention models.",
+      "Recommended for query 'applications of transformers in computer vision' (relevance 0.18, navigation 0.22):\n  Title: Foundations of Attention Mechanisms\n  Summary: A deep dive into the basics of attention mechanisms is provided, explaining how soft attention mimics human focus on important parts of data, such as images. The chapter contrasts soft attention with hard attention, discusses computational trade-offs, and introduces varieties like global and local attention models."
+    ],
+    "semantic_keywords": [
+      "models",
+      "data",
+      "discusses",
+      "attention",
+      "local",
+      "chapter",
+      "parts",
+      "important",
+      "dive",
+      "explaining"
+    ],
+    "content_themes": [
+      "general content"
+    ],
+    "search_evaluations": [
+      {
+        "query": "transformers deep learning explained",
+        "chapter_relevance_scores": {
+          "0": 0.27254748344421387
+        },
+        "navigation_utility_scores": {
+          "0": 0.3085613250732422
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "how do transformers work in natural language processing?",
+        "chapter_relevance_scores": {
+          "0": 0.275496244430542
+        },
+        "navigation_utility_scores": {
+          "0": 0.26133739948272705
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "applications of transformers in computer vision",
+        "chapter_relevance_scores": {
+          "0": 0.18409577012062073
+        },
+        "navigation_utility_scores": {
+          "0": 0.22106175124645233
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "what are the benefits of using transformers in reinforcement learning?",
+        "chapter_relevance_scores": {
+          "0": 0.17325931787490845
+        },
+        "navigation_utility_scores": {
+          "0": 0.2349979132413864
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "introductory lecture on deep learning models at Stanford",
+        "chapter_relevance_scores": {
+          "0": 0.24704211950302124
+        },
+        "navigation_utility_scores": {
+          "0": 0.2867525517940521
+        },
+        "user_feedback": null
+      }
+    ]
+  },
+  {
+    "chapter_data": {
+      "title": "Self-Attention: The Core of Transformers",
+      "summary": "The concept of self-attention is introduced as the key building block of transformers. The chapter explains how self-attention operates as a search and retrieval problem using queries, keys, and values, and describes the scaled dot-product similarity and multi-head self-attention, which allows the model to capture complex token interactions.",
+      "start_time": 487.0,
+      "end_time": 653.4,
+      "duration": 166.4,
+      "start_timestamp": "00:08:07",
+      "end_timestamp": "00:10:53",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=487s"
+    },
+    "transcript_segment": "that this term was first introduced by a paper which from line it all which was uh which provided a framework for a self-attentive uh uh frame a self-attentive mechanism for sentence and weddings and now moving on to the main crux of the transformers paper which was the self-retention block so self-retention is the basis is the main uh comp building block for the how for what makes the transformers model work so well and to enable them and make them so powerful so to think of it more easily uh we can uh break down the self-retention as a search retrieval problem so the problem is that given a query queue and uh we the we need to find a set of keys k which are most similar to q and return the corresponding key values called v now these three vectors can be drawn from the same source for example we can have that q k and v are all equal to a single vector x where x can be output of a previous layer in transformers these vectors are obtained by applying different linear transformations to x so as to enable the model to capture more complex interactions between the different tokens at different places of the sentence now how attention is computed is just a weighted summation of the similarities between the query and key vectors which is weighted by the respective value for those keys and in the transformers paper they used the scale dot product as a similarity function for the queries and keys and another important aspect of the transformers was the introduction of multi-head self-retention so what multi-head self-retention means is that the retention is for at every layer the self attention is performed multiple times which enables the model to learn multiple representation subspaces so in a way you can think of it that each head is has a uh has a power to look at different things and to learn different semantics for example one head can be learning to try to predict uh what is the part of speech for those tokens one head might be learning what is the syntactic structure of the sentence and uh and all those things that are there uh to understand what this uh what the upcoming uh sentence means now to better understand what the self-attention works and what are the different computations there is a short video so in this so as you can see there are three incoming tokens so input one input to input three we apply linear transformations to get the key value of vectors for each input and then give once a query queue comes we calculated similarity with the key with respect to key vectors and then",
+    "evaluation_metrics": {
+      "content_relevance": 0.7025532722473145,
+      "title_accuracy": 0.5873172283172607,
+      "summary_completeness": 0.678191686120833,
+      "bert_score_precision": 0.8735862970352173,
+      "bert_score_recall": 0.7877984046936035,
+      "bert_score_f1": 0.8284774422645569,
+      "rouge_1_f1": 0.17904761904761907,
+      "rouge_2_f1": 0.06883365200764818,
+      "rouge_l_f1": 0.1333333333333333,
+      "boundary_accuracy": 0.8,
+      "temporal_consistency": 1.0,
+      "duration_appropriateness": 1.0,
+      "redundancy_score": 0.4735441207885742,
+      "distinctiveness": 0.5264558792114258,
+      "search_relevance": 0.4315944969654083,
+      "keyword_coverage": 0.08450704225352113,
+      "navigation_utility": 0.37750851511955263,
+      "overall_score": 0.6623960346626446,
+      "evaluation_timestamp": "",
+      "chapter_index": 6,
+      "confidence_score": 0.0
+    },
+    "issues_detected": [
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment",
+      "Overlapping content detected with 2 other chapters"
+    ],
+    "recommendations": [
+      "Recommended for query 'how do transformers work in natural language processing?' (relevance 0.57, navigation 0.53):\n  Title: Self-Attention: The Core of Transformers\n  Summary: The concept of self-attention is introduced as the key building block of transformers. The chapter explains how self-attention operates as a search and retrieval problem using queries, keys, and values, and describes the scaled dot-product similarity and multi-head self-attention, which allows the model to capture complex token interactions.",
+      "Recommended for query 'transformers deep learning explained' (relevance 0.52, navigation 0.41):\n  Title: Self-Attention: The Core of Transformers\n  Summary: The concept of self-attention is introduced as the key building block of transformers. The chapter explains how self-attention operates as a search and retrieval problem using queries, keys, and values, and describes the scaled dot-product similarity and multi-head self-attention, which allows the model to capture complex token interactions.",
+      "Recommended for query 'applications of transformers in computer vision' (relevance 0.45, navigation 0.34):\n  Title: Self-Attention: The Core of Transformers\n  Summary: The concept of self-attention is introduced as the key building block of transformers. The chapter explains how self-attention operates as a search and retrieval problem using queries, keys, and values, and describes the scaled dot-product similarity and multi-head self-attention, which allows the model to capture complex token interactions.",
+      "Recommended for query 'what are the benefits of using transformers in reinforcement learning?' (relevance 0.43, navigation 0.36):\n  Title: Self-Attention: The Core of Transformers\n  Summary: The concept of self-attention is introduced as the key building block of transformers. The chapter explains how self-attention operates as a search and retrieval problem using queries, keys, and values, and describes the scaled dot-product similarity and multi-head self-attention, which allows the model to capture complex token interactions.",
+      "Recommended for query 'introductory lecture on deep learning models at Stanford' (relevance 0.20, navigation 0.24):\n  Title: Self-Attention: The Core of Transformers\n  Summary: The concept of self-attention is introduced as the key building block of transformers. The chapter explains how self-attention operates as a search and retrieval problem using queries, keys, and values, and describes the scaled dot-product similarity and multi-head self-attention, which allows the model to capture complex token interactions."
+    ],
+    "semantic_keywords": [
+      "search",
+      "product",
+      "transformers",
+      "building",
+      "operates",
+      "describes",
+      "explains",
+      "attention",
+      "chapter",
+      "head"
+    ],
+    "content_themes": [
+      "general content"
+    ],
+    "search_evaluations": [
+      {
+        "query": "transformers deep learning explained",
+        "chapter_relevance_scores": {
+          "0": 0.5186082124710083
+        },
+        "navigation_utility_scores": {
+          "0": 0.41200071573257446
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "how do transformers work in natural language processing?",
+        "chapter_relevance_scores": {
+          "0": 0.5693721175193787
+        },
+        "navigation_utility_scores": {
+          "0": 0.5341945290565491
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "applications of transformers in computer vision",
+        "chapter_relevance_scores": {
+          "0": 0.44806182384490967
+        },
+        "navigation_utility_scores": {
+          "0": 0.34185969829559326
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "what are the benefits of using transformers in reinforcement learning?",
+        "chapter_relevance_scores": {
+          "0": 0.4255504906177521
+        },
+        "navigation_utility_scores": {
+          "0": 0.3613336682319641
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "introductory lecture on deep learning models at Stanford",
+        "chapter_relevance_scores": {
+          "0": 0.19637984037399292
+        },
+        "navigation_utility_scores": {
+          "0": 0.23815396428108215
+        },
+        "user_feedback": null
+      }
+    ]
+  },
+  {
+    "chapter_data": {
+      "title": "Visualizing Self-Attention Computation",
+      "summary": "A step-by-step explanation of the self-attention computation process is given, illustrating how input tokens are transformed into query, key, and value vectors, how similarity scores are calculated, and how weighted sums produce the output. This visualization aids in understanding the mechanics behind self-attention layers.",
+      "start_time": 630.2,
+      "end_time": 755.8,
+      "duration": 125.6,
+      "start_timestamp": "00:10:30",
+      "end_timestamp": "00:12:35",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=630s"
+    },
+    "transcript_segment": "different computations there is a short video so in this so as you can see there are three incoming tokens so input one input to input three we apply linear transformations to get the key value of vectors for each input and then give once a query queue comes we calculated similarity with the key with respect to key vectors and then multiply those scores with the value vector and then add them all up to get the output the same computation is then performed on all the tokens and we get the output of the self retention layer so as you can see here the final output of the send self retention layer is in dark green that's at the top of the screen so now again for the final token we perform everything same queries multiplied by keys we get the similarity scores and then those similarity scores obey the value vectors and then we finally perform the addition to get the self attention output of the transformers apart from self retention there are some other necessary ingredients that makes uh the transformers so powerful one important aspect is the uh presence of positional representations or the embedding layer so the way rnns worked very well was that since they process each the information in a sequential ordering so there was this notion of uh ordering right and which is also very important in understanding language because we all know that we read any piece of text from left to right in most uh in most of the languages and also right to left in some languages so there is a notion of ordering which is lost in kind of self-attention because every word is attending to every other world that's why this paper introduced a separate uh embedding layer for introducing positional representations the second important aspect is having non-linearities so if you think of uh all the computation that is happening in",
+    "evaluation_metrics": {
+      "content_relevance": 0.5964897871017456,
+      "title_accuracy": 0.546994686126709,
+      "summary_completeness": 0.5919205118519392,
+      "bert_score_precision": 0.8557370901107788,
+      "bert_score_recall": 0.7953802943229675,
+      "bert_score_f1": 0.8244555592536926,
+      "rouge_1_f1": 0.16931216931216933,
+      "rouge_2_f1": 0.042553191489361694,
+      "rouge_l_f1": 0.11111111111111112,
+      "boundary_accuracy": 0.8,
+      "temporal_consistency": 1.0,
+      "duration_appropriateness": 1.0,
+      "redundancy_score": 0.3525865972042084,
+      "distinctiveness": 0.6474134027957916,
+      "search_relevance": 0.2193848192691803,
+      "keyword_coverage": 0.08450704225352113,
+      "navigation_utility": 0.3087442934513092,
+      "overall_score": 0.6282427104907135,
+      "evaluation_timestamp": "",
+      "chapter_index": 7,
+      "confidence_score": 0.0
+    },
+    "issues_detected": [
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment",
+      "Overlapping content detected with 1 other chapters"
+    ],
+    "recommendations": [
+      "Recommended for query 'how do transformers work in natural language processing?' (relevance 0.29, navigation 0.41):\n  Title: Visualizing Self-Attention Computation\n  Summary: A step-by-step explanation of the self-attention computation process is given, illustrating how input tokens are transformed into query, key, and value vectors, how similarity scores are calculated, and how weighted sums produce the output. This visualization aids in understanding the mechanics behind self-attention layers.",
+      "Recommended for query 'transformers deep learning explained' (relevance 0.28, navigation 0.39):\n  Title: Visualizing Self-Attention Computation\n  Summary: A step-by-step explanation of the self-attention computation process is given, illustrating how input tokens are transformed into query, key, and value vectors, how similarity scores are calculated, and how weighted sums produce the output. This visualization aids in understanding the mechanics behind self-attention layers.",
+      "Recommended for query 'introductory lecture on deep learning models at Stanford' (relevance 0.25, navigation 0.29):\n  Title: Visualizing Self-Attention Computation\n  Summary: A step-by-step explanation of the self-attention computation process is given, illustrating how input tokens are transformed into query, key, and value vectors, how similarity scores are calculated, and how weighted sums produce the output. This visualization aids in understanding the mechanics behind self-attention layers.",
+      "Recommended for query 'what are the benefits of using transformers in reinforcement learning?' (relevance 0.15, navigation 0.29):\n  Title: Visualizing Self-Attention Computation\n  Summary: A step-by-step explanation of the self-attention computation process is given, illustrating how input tokens are transformed into query, key, and value vectors, how similarity scores are calculated, and how weighted sums produce the output. This visualization aids in understanding the mechanics behind self-attention layers.",
+      "Recommended for query 'applications of transformers in computer vision' (relevance 0.13, navigation 0.16):\n  Title: Visualizing Self-Attention Computation\n  Summary: A step-by-step explanation of the self-attention computation process is given, illustrating how input tokens are transformed into query, key, and value vectors, how similarity scores are calculated, and how weighted sums produce the output. This visualization aids in understanding the mechanics behind self-attention layers."
+    ],
+    "semantic_keywords": [
+      "output",
+      "layers",
+      "sums",
+      "attention",
+      "input",
+      "process",
+      "computation",
+      "illustrating",
+      "visualization",
+      "behind"
+    ],
+    "content_themes": [
+      "general content"
+    ],
+    "search_evaluations": [
+      {
+        "query": "transformers deep learning explained",
+        "chapter_relevance_scores": {
+          "0": 0.2771976590156555
+        },
+        "navigation_utility_scores": {
+          "0": 0.39040589332580566
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "how do transformers work in natural language processing?",
+        "chapter_relevance_scores": {
+          "0": 0.2924284040927887
+        },
+        "navigation_utility_scores": {
+          "0": 0.41059422492980957
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "applications of transformers in computer vision",
+        "chapter_relevance_scores": {
+          "0": 0.13098306953907013
+        },
+        "navigation_utility_scores": {
+          "0": 0.15927967429161072
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "what are the benefits of using transformers in reinforcement learning?",
+        "chapter_relevance_scores": {
+          "0": 0.15049107372760773
+        },
+        "navigation_utility_scores": {
+          "0": 0.2930973470211029
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "introductory lecture on deep learning models at Stanford",
+        "chapter_relevance_scores": {
+          "0": 0.24582388997077942
+        },
+        "navigation_utility_scores": {
+          "0": 0.29034432768821716
+        },
+        "user_feedback": null
+      }
+    ]
+  },
+  {
+    "chapter_data": {
+      "title": "Additional Transformer Components: Positional Encoding, Non-linearities, and Masking",
+      "summary": "This chapter covers essential components that complement self-attention in transformers. Positional embeddings provide sequence order information, non-linear feed-forward layers enable complex mappings beyond linear transformations, and masking techniques prevent data leakage during training by restricting attention to future tokens.",
+      "start_time": 752.7,
+      "end_time": 856.6,
+      "duration": 103.9,
+      "start_timestamp": "00:12:32",
+      "end_timestamp": "00:14:16",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=752s"
+    },
+    "transcript_segment": "non-linearities so if you think of uh all the computation that is happening in the cell potential there it's all linear because it's all matrix multiplication but as we all know that deep learning models uh work well when they are able to uh when they are able to learn more complex mappings between input and output which can be uh attained by a simple mlp and the third important component of the self of the transformers is the masking so masking is what allows to parallelize the operations uh since every word can attend to every other word in the decoder part of the transformers which otherwise gonna be talking about later is the problem comes that you don't want the decoder to look into the future because that can result in data leakage so that's why masking helps the decoder to avoid that future information and learn only what has been how what uh what the model has processed so far so now on to the uh the encoder decoder architecture of the transformers yeah thanks tethanya for talking about self-attention so self-retention is sort of the key ingredient or one of the key ingredients that allows transformers to work so well but at a very high level the model that was proposed in the vaswani at all paper of 2017 was like previous language models in the sense that it had an encoder decoder architecture what that means is let's say you're working on a translation problem you want to translate english to french the way that would work is you would read in the entire input of your english sentence you would encode that input so that's the encoder part of the network and then you would generate token by token the corresponding friends translation and",
+    "evaluation_metrics": {
+      "content_relevance": 0.6540848016738892,
+      "title_accuracy": 0.5632771849632263,
+      "summary_completeness": 0.6340370721083421,
+      "bert_score_precision": 0.8528569936752319,
+      "bert_score_recall": 0.785844624042511,
+      "bert_score_f1": 0.8179805874824524,
+      "rouge_1_f1": 0.11931818181818182,
+      "rouge_2_f1": 0.022857142857142857,
+      "rouge_l_f1": 0.06818181818181819,
+      "boundary_accuracy": 0.8,
+      "temporal_consistency": 1.0,
+      "duration_appropriateness": 1.0,
+      "redundancy_score": 0.5193289518356323,
+      "distinctiveness": 0.4806710481643677,
+      "search_relevance": 0.4619634449481964,
+      "keyword_coverage": 0.08450704225352113,
+      "navigation_utility": 0.4584011614322662,
+      "overall_score": 0.6377639618616004,
+      "evaluation_timestamp": "",
+      "chapter_index": 8,
+      "confidence_score": 0.0
+    },
+    "issues_detected": [
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment",
+      "Overlapping content detected with 3 other chapters"
+    ],
+    "recommendations": [
+      "Recommended for query 'transformers deep learning explained' (relevance 0.58, navigation 0.58):\n  Title: Additional Transformer Components: Positional Encoding, Non-linearities, and Masking\n  Summary: This chapter covers essential components that complement self-attention in transformers. Positional embeddings provide sequence order information, non-linear feed-forward layers enable complex mappings beyond linear transformations, and masking techniques prevent data leakage during training by restricting attention to future tokens.",
+      "Recommended for query 'how do transformers work in natural language processing?' (relevance 0.57, navigation 0.52):\n  Title: Additional Transformer Components: Positional Encoding, Non-linearities, and Masking\n  Summary: This chapter covers essential components that complement self-attention in transformers. Positional embeddings provide sequence order information, non-linear feed-forward layers enable complex mappings beyond linear transformations, and masking techniques prevent data leakage during training by restricting attention to future tokens.",
+      "Recommended for query 'what are the benefits of using transformers in reinforcement learning?' (relevance 0.47, navigation 0.50):\n  Title: Additional Transformer Components: Positional Encoding, Non-linearities, and Masking\n  Summary: This chapter covers essential components that complement self-attention in transformers. Positional embeddings provide sequence order information, non-linear feed-forward layers enable complex mappings beyond linear transformations, and masking techniques prevent data leakage during training by restricting attention to future tokens.",
+      "Recommended for query 'applications of transformers in computer vision' (relevance 0.42, navigation 0.39):\n  Title: Additional Transformer Components: Positional Encoding, Non-linearities, and Masking\n  Summary: This chapter covers essential components that complement self-attention in transformers. Positional embeddings provide sequence order information, non-linear feed-forward layers enable complex mappings beyond linear transformations, and masking techniques prevent data leakage during training by restricting attention to future tokens.",
+      "Recommended for query 'introductory lecture on deep learning models at Stanford' (relevance 0.28, navigation 0.29):\n  Title: Additional Transformer Components: Positional Encoding, Non-linearities, and Masking\n  Summary: This chapter covers essential components that complement self-attention in transformers. Positional embeddings provide sequence order information, non-linear feed-forward layers enable complex mappings beyond linear transformations, and masking techniques prevent data leakage during training by restricting attention to future tokens."
+    ],
+    "semantic_keywords": [
+      "positional",
+      "transformers",
+      "transformer",
+      "components",
+      "data",
+      "layers",
+      "feed",
+      "attention",
+      "techniques",
+      "chapter"
+    ],
+    "content_themes": [
+      "general content"
+    ],
+    "search_evaluations": [
+      {
+        "query": "transformers deep learning explained",
+        "chapter_relevance_scores": {
+          "0": 0.5761847496032715
+        },
+        "navigation_utility_scores": {
+          "0": 0.5844446420669556
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "how do transformers work in natural language processing?",
+        "chapter_relevance_scores": {
+          "0": 0.565056324005127
+        },
+        "navigation_utility_scores": {
+          "0": 0.5243725180625916
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "applications of transformers in computer vision",
+        "chapter_relevance_scores": {
+          "0": 0.42326784133911133
+        },
+        "navigation_utility_scores": {
+          "0": 0.39314088225364685
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "what are the benefits of using transformers in reinforcement learning?",
+        "chapter_relevance_scores": {
+          "0": 0.4698825776576996
+        },
+        "navigation_utility_scores": {
+          "0": 0.504179835319519
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "introductory lecture on deep learning models at Stanford",
+        "chapter_relevance_scores": {
+          "0": 0.2754257321357727
+        },
+        "navigation_utility_scores": {
+          "0": 0.28586792945861816
+        },
+        "user_feedback": null
+      }
+    ]
+  },
+  {
+    "chapter_data": {
+      "title": "Transformer Architecture: Encoder-Decoder Design",
+      "summary": "An overview of the original transformer architecture is presented, highlighting its encoder-decoder structure used in tasks like translation. The chapter details the subcomponents of encoder blocks, including self-attention layers, feed-forward networks, layer normalization, and residual connections, and contrasts the decoder's additional cross-attention layer.",
+      "start_time": 812.8,
+      "end_time": 1018.0,
+      "duration": 205.2,
+      "start_timestamp": "00:13:32",
+      "end_timestamp": "00:16:58",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=812s"
+    },
+    "transcript_segment": "architecture of the transformers yeah thanks tethanya for talking about self-attention so self-retention is sort of the key ingredient or one of the key ingredients that allows transformers to work so well but at a very high level the model that was proposed in the vaswani at all paper of 2017 was like previous language models in the sense that it had an encoder decoder architecture what that means is let's say you're working on a translation problem you want to translate english to french the way that would work is you would read in the entire input of your english sentence you would encode that input so that's the encoder part of the network and then you would generate token by token the corresponding friends translation and the decoder is the part of the network that is responsible for generating those tokens so you can think of these encoder blocks and decoder blocks as essentially something like lego they have these sub components that make them up and in particular the encoder block has three main sub components the first is a self retention layer um that chaitanya talked about earlier and as talked about earlier as well you need a feed forward layer after that because the self-retention layer only performs linear operations and so you need something that can capture the non-linearities um you also have a layer norm after this and lastly there are residual connections between different encoder blocks the decoder is very similar to the encoder but there's one difference which is that it has this extra layer because the decoder doesn't just do multi-head attention on the output of the previous layers so so for context the encoder does multi-head attention so each self-retention layer in the encoder block in each of the encoder blocks does multi-head attention looking at the previous layers of the encoder blocks the decoder however does that in the sense that it also looks at the previous layers of the decoder but it also looks at the output of the encoder and so it needs us a multi-head attention layer over the encoder blocks and lastly there's masking as well um so if you are because every token can look at every other token um you want to sort of make sure in the decoder that you're not looking into the future so if you're in position three for instance you shouldn't be able to look at position four and position five so those are sort of all the components that led to the creation of the model in um the vasani idol paper and um let's talk a little bit about the advantages and drawbacks of this model um so the two main advantages which are huge advantages and which are why transformers have done such a good job of revolutionizing many many fields within deep learning um are as follows so so the first is there is this constant path length between any two positions in a sequence because every token in the sequence is looking at every other token and this basically solves the problem that they've talked about earlier with long sequences you don't have this problem with long sequences where if you're trying to predict a token that depends on a word that was far far behind in a sentence you don't have the problem of losing that context now the distance between them is only one in terms of the path length",
+    "evaluation_metrics": {
+      "content_relevance": 0.6762739419937134,
+      "title_accuracy": 0.603413462638855,
+      "summary_completeness": 0.6492665762753831,
+      "bert_score_precision": 0.8551301956176758,
+      "bert_score_recall": 0.7790555357933044,
+      "bert_score_f1": 0.8153221011161804,
+      "rouge_1_f1": 0.09831029185867896,
+      "rouge_2_f1": 0.024653312788906007,
+      "rouge_l_f1": 0.07987711213517665,
+      "boundary_accuracy": 0.8,
+      "temporal_consistency": 1.0,
+      "duration_appropriateness": 1.0,
+      "redundancy_score": 0.4478204846382141,
+      "distinctiveness": 0.5521795153617859,
+      "search_relevance": 0.41935131549835203,
+      "keyword_coverage": 0.07042253521126761,
+      "navigation_utility": 0.43259198069572447,
+      "overall_score": 0.6515676651924888,
+      "evaluation_timestamp": "",
+      "chapter_index": 9,
+      "confidence_score": 0.0
+    },
+    "issues_detected": [
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment",
+      "Overlapping content detected with 2 other chapters"
+    ],
+    "recommendations": [
+      "Recommended for query 'transformers deep learning explained' (relevance 0.54, navigation 0.55):\n  Title: Transformer Architecture: Encoder-Decoder Design\n  Summary: An overview of the original transformer architecture is presented, highlighting its encoder-decoder structure used in tasks like translation. The chapter details the subcomponents of encoder blocks, including self-attention layers, feed-forward networks, layer normalization, and residual connections, and contrasts the decoder's additional cross-attention layer.",
+      "Recommended for query 'how do transformers work in natural language processing?' (relevance 0.50, navigation 0.55):\n  Title: Transformer Architecture: Encoder-Decoder Design\n  Summary: An overview of the original transformer architecture is presented, highlighting its encoder-decoder structure used in tasks like translation. The chapter details the subcomponents of encoder blocks, including self-attention layers, feed-forward networks, layer normalization, and residual connections, and contrasts the decoder's additional cross-attention layer.",
+      "Recommended for query 'what are the benefits of using transformers in reinforcement learning?' (relevance 0.37, navigation 0.43):\n  Title: Transformer Architecture: Encoder-Decoder Design\n  Summary: An overview of the original transformer architecture is presented, highlighting its encoder-decoder structure used in tasks like translation. The chapter details the subcomponents of encoder blocks, including self-attention layers, feed-forward networks, layer normalization, and residual connections, and contrasts the decoder's additional cross-attention layer.",
+      "Recommended for query 'applications of transformers in computer vision' (relevance 0.41, navigation 0.38):\n  Title: Transformer Architecture: Encoder-Decoder Design\n  Summary: An overview of the original transformer architecture is presented, highlighting its encoder-decoder structure used in tasks like translation. The chapter details the subcomponents of encoder blocks, including self-attention layers, feed-forward networks, layer normalization, and residual connections, and contrasts the decoder's additional cross-attention layer.",
+      "Recommended for query 'introductory lecture on deep learning models at Stanford' (relevance 0.27, navigation 0.26):\n  Title: Transformer Architecture: Encoder-Decoder Design\n  Summary: An overview of the original transformer architecture is presented, highlighting its encoder-decoder structure used in tasks like translation. The chapter details the subcomponents of encoder blocks, including self-attention layers, feed-forward networks, layer normalization, and residual connections, and contrasts the decoder's additional cross-attention layer."
+    ],
+    "semantic_keywords": [
+      "encoder",
+      "transformer",
+      "layers",
+      "feed",
+      "attention",
+      "chapter",
+      "used",
+      "networks",
+      "contrasts",
+      "tasks"
+    ],
+    "content_themes": [
+      "general content"
+    ],
+    "search_evaluations": [
+      {
+        "query": "transformers deep learning explained",
+        "chapter_relevance_scores": {
+          "0": 0.5421038866043091
+        },
+        "navigation_utility_scores": {
+          "0": 0.5505071878433228
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "how do transformers work in natural language processing?",
+        "chapter_relevance_scores": {
+          "0": 0.5007545948028564
+        },
+        "navigation_utility_scores": {
+          "0": 0.5477596521377563
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "applications of transformers in computer vision",
+        "chapter_relevance_scores": {
+          "0": 0.4088740646839142
+        },
+        "navigation_utility_scores": {
+          "0": 0.37531641125679016
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "what are the benefits of using transformers in reinforcement learning?",
+        "chapter_relevance_scores": {
+          "0": 0.37493735551834106
+        },
+        "navigation_utility_scores": {
+          "0": 0.43078482151031494
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "introductory lecture on deep learning models at Stanford",
+        "chapter_relevance_scores": {
+          "0": 0.2700866758823395
+        },
+        "navigation_utility_scores": {
+          "0": 0.25859183073043823
+        },
+        "user_feedback": null
+      }
+    ]
+  },
+  {
+    "chapter_data": {
+      "title": "Advantages of Transformers: Parallelization and Contextual Understanding",
+      "summary": "This chapter explains how transformers overcome limitations of previous models by enabling constant path length between tokens, allowing every token to attend to all others. The architecture's suitability for parallel processing on GPUs results in faster training times and better handling of long-range dependencies.",
+      "start_time": 1016.7,
+      "end_time": 1125.8,
+      "duration": 109.1,
+      "start_timestamp": "00:16:56",
+      "end_timestamp": "00:18:45",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=1016s"
+    },
+    "transcript_segment": "them is only one in terms of the path length also because the nature of the computation that's happening transformer models lend themselves really well to parallelization and because of the advances that we've had with gpus basically if you take a transfer model with n parameters and you take a model that isn't a transformer say like i can have stm with also with n parameters training the transformer model is going to be much faster because of the parallelization that it leverages so those are the advantages the disadvantages are basically self-attention takes quadratic time because every token looks at every other token order n square as you might know does not scale and there's actually been a lot of work in trying to tackle this so we've linked to some here big bird lin former and reformer are all approaches to try and make this linear or quasi-linear essentially and yeah we highly recommend to recommend going through jay alamer's blog the illustrated transformer which provides great visualizations and explains everything that we just talked about in great detail yeah and i'd like to pass it on to chaitanya for applications of transformers yeah so now moving on to like some of the recent work uh some of the work that uh very shortly followed the transformers paper so one of the models that came out uh was gpt the gbt architecture which was released by open eyes so uh so open ei had the latest model that opened here has in the gpt series is the gpd3 so it consists of only the decoder blocks from transformers and is trained on our traditional language modeling task which is uh predicting the current token which is separating the next token given the last uh t tokens that that the model has seen",
+    "evaluation_metrics": {
+      "content_relevance": 0.6323962807655334,
+      "title_accuracy": 0.610298216342926,
+      "summary_completeness": 0.6175608602288651,
+      "bert_score_precision": 0.860787034034729,
+      "bert_score_recall": 0.7845451831817627,
+      "bert_score_f1": 0.8208996653556824,
+      "rouge_1_f1": 0.15555555555555553,
+      "rouge_2_f1": 0.0111731843575419,
+      "rouge_l_f1": 0.07777777777777777,
+      "boundary_accuracy": 0.8,
+      "temporal_consistency": 1.0,
+      "duration_appropriateness": 1.0,
+      "redundancy_score": 0.3802809715270996,
+      "distinctiveness": 0.6197190284729004,
+      "search_relevance": 0.44324560165405275,
+      "keyword_coverage": 0.07746478873239436,
+      "navigation_utility": 0.41308431029319764,
+      "overall_score": 0.651557172316213,
+      "evaluation_timestamp": "",
+      "chapter_index": 10,
+      "confidence_score": 0.0
+    },
+    "issues_detected": [
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment"
+    ],
+    "recommendations": [
+      "Recommended for query 'transformers deep learning explained' (relevance 0.57, navigation 0.51):\n  Title: Advantages of Transformers: Parallelization and Contextual Understanding\n  Summary: This chapter explains how transformers overcome limitations of previous models by enabling constant path length between tokens, allowing every token to attend to all others. The architecture's suitability for parallel processing on GPUs results in faster training times and better handling of long-range dependencies.",
+      "Recommended for query 'what are the benefits of using transformers in reinforcement learning?' (relevance 0.50, navigation 0.48):\n  Title: Advantages of Transformers: Parallelization and Contextual Understanding\n  Summary: This chapter explains how transformers overcome limitations of previous models by enabling constant path length between tokens, allowing every token to attend to all others. The architecture's suitability for parallel processing on GPUs results in faster training times and better handling of long-range dependencies.",
+      "Recommended for query 'how do transformers work in natural language processing?' (relevance 0.45, navigation 0.39):\n  Title: Advantages of Transformers: Parallelization and Contextual Understanding\n  Summary: This chapter explains how transformers overcome limitations of previous models by enabling constant path length between tokens, allowing every token to attend to all others. The architecture's suitability for parallel processing on GPUs results in faster training times and better handling of long-range dependencies.",
+      "Recommended for query 'applications of transformers in computer vision' (relevance 0.39, navigation 0.43):\n  Title: Advantages of Transformers: Parallelization and Contextual Understanding\n  Summary: This chapter explains how transformers overcome limitations of previous models by enabling constant path length between tokens, allowing every token to attend to all others. The architecture's suitability for parallel processing on GPUs results in faster training times and better handling of long-range dependencies.",
+      "Recommended for query 'introductory lecture on deep learning models at Stanford' (relevance 0.29, navigation 0.26):\n  Title: Advantages of Transformers: Parallelization and Contextual Understanding\n  Summary: This chapter explains how transformers overcome limitations of previous models by enabling constant path length between tokens, allowing every token to attend to all others. The architecture's suitability for parallel processing on GPUs results in faster training times and better handling of long-range dependencies."
+    ],
+    "semantic_keywords": [
+      "models",
+      "times",
+      "transformers",
+      "advantages",
+      "gpus",
+      "processing",
+      "better",
+      "overcome",
+      "explains",
+      "parallel"
+    ],
+    "content_themes": [
+      "general content"
+    ],
+    "search_evaluations": [
+      {
+        "query": "transformers deep learning explained",
+        "chapter_relevance_scores": {
+          "0": 0.5712728500366211
+        },
+        "navigation_utility_scores": {
+          "0": 0.5079513788223267
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "how do transformers work in natural language processing?",
+        "chapter_relevance_scores": {
+          "0": 0.45450538396835327
+        },
+        "navigation_utility_scores": {
+          "0": 0.3887428641319275
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "applications of transformers in computer vision",
+        "chapter_relevance_scores": {
+          "0": 0.3946041464805603
+        },
+        "navigation_utility_scores": {
+          "0": 0.42516809701919556
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "what are the benefits of using transformers in reinforcement learning?",
+        "chapter_relevance_scores": {
+          "0": 0.5038235783576965
+        },
+        "navigation_utility_scores": {
+          "0": 0.4824807643890381
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "introductory lecture on deep learning models at Stanford",
+        "chapter_relevance_scores": {
+          "0": 0.29202204942703247
+        },
+        "navigation_utility_scores": {
+          "0": 0.26107844710350037
+        },
+        "user_feedback": null
+      }
+    ]
+  },
+  {
+    "chapter_data": {
+      "title": "Popular Transformer Models: GPT and BERT",
+      "summary": "The chapter introduces GPT and BERT, two influential transformer-based models. GPT uses decoder blocks for generative tasks and excels in in-context learning, while BERT uses encoder blocks and is pre-trained with masked language modeling and next sentence prediction, enabling effective fine-tuning for downstream tasks.",
+      "start_time": 1092.4,
+      "end_time": 1365.0,
+      "duration": 272.6,
+      "start_timestamp": "00:18:12",
+      "end_timestamp": "00:22:45",
+      "youtube_timestamp": "https://youtube.com/watch?v=P127jhj-8-Y&t=1092s"
+    },
+    "transcript_segment": "the recent work uh some of the work that uh very shortly followed the transformers paper so one of the models that came out uh was gpt the gbt architecture which was released by open eyes so uh so open ei had the latest model that opened here has in the gpt series is the gpd3 so it consists of only the decoder blocks from transformers and is trained on our traditional language modeling task which is uh predicting the current token which is separating the next token given the last uh t tokens that that the model has seen and for any downstream tasks now the model can just you can just train a classification layer on the last hidden state which can be which can have any number of labels and since the model is generative in nature you can also use the pre-trained network as uh for generative kind of tasks such as summarization and natural language and natural language generation for things for that instance another important aspect that gpt 3 gained popularity was its ability to to be able to perform in context learning what the authors called into context learning so this is the ability wherein the model can perform can learn under few short settings uh what what the task is to complete the task without performing any gradient updates for example let's say the model is shown a bunch of addition examples and then if you pass in a new uh input and leave the uh and just leave it at uh at equal to sign the model tries to predict the act next token uh which very well comes out to be the sum of the uh the sum of the numbers that's that is shown another example can be also the spell correction task or the translation task so this is this was the ability that uh made gpt 3 so much uh uh talked about in the nlp world and uh right now also like many applications have been made using gp3 which includes uh the one of them being the vs code co-pilot which uh tries to which tries to generate a piece of code given our doctrine kind of natural language text another major uh model that came out that was based on the transformers architecture was bird so but uh lends its name from it's an acronym for bi-directional encoding encoder representations of transformers it consists of uh only the encoder blocks of the transformers which is unlike gpd3 which had only the decoder blocks now this prop because of this change there there comes a problem because uh because bert has only the encoder block so it sees the entire piece of text it cannot be pre-trained on a live language modeling task because of the problem of data leakage from the future so what the authors came up with was a clever idea and they uh and they came up with a novel task called mass language modeling which was uh which included to replace certain birds with a placeholder and then the model tries to predict those words given the entire context now apart from this token level task there was the authors also added a second objective called the next sentence prediction which was a sentence level task wherein given two chunks of text the model tried to predict whether the second sentence followed the other sentence or not follow the first sentence or not and now for after pre-training this model for any downstream task the model can be further fine-tuned with an additional classification layer just like it was in chip e3 so ah these are the two models that were that have been like very popular and have made a lot of applications made their way in lot of applications but the landscape has changed quite a lot since we have taken this class there are models with different pre-training techniques like elektra d berta and there are also models that do well in like other modalities and which we're going to be talking about in other lecture series as well so yeah that's all from this lecture and thank you for tuning in yeah um just want to just want to end by saying thank you all for watching this and we have a really exciting set of videos with truly amazing speakers and we hope you are able to derive value from that thanks a lot thank you thank you everyone you",
+    "evaluation_metrics": {
+      "content_relevance": 0.7100064754486084,
+      "title_accuracy": 0.599583625793457,
+      "summary_completeness": 0.678281860200784,
+      "bert_score_precision": 0.8560752868652344,
+      "bert_score_recall": 0.7693033218383789,
+      "bert_score_f1": 0.8103731274604797,
+      "rouge_1_f1": 0.09570552147239264,
+      "rouge_2_f1": 0.029520295202952025,
+      "rouge_l_f1": 0.07116564417177915,
+      "boundary_accuracy": 0.8,
+      "temporal_consistency": 1.0,
+      "duration_appropriateness": 1.0,
+      "redundancy_score": 0.4266580641269684,
+      "distinctiveness": 0.5733419358730316,
+      "search_relevance": 0.42453737258911134,
+      "keyword_coverage": 0.07746478873239436,
+      "navigation_utility": 0.40231637954711913,
+      "overall_score": 0.6600118631215062,
+      "evaluation_timestamp": "",
+      "chapter_index": 11,
+      "confidence_score": 0.0
+    },
+    "issues_detected": [
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment"
+    ],
+    "recommendations": [
+      "Recommended for query 'how do transformers work in natural language processing?' (relevance 0.56, navigation 0.52):\n  Title: Popular Transformer Models: GPT and BERT\n  Summary: The chapter introduces GPT and BERT, two influential transformer-based models. GPT uses decoder blocks for generative tasks and excels in in-context learning, while BERT uses encoder blocks and is pre-trained with masked language modeling and next sentence prediction, enabling effective fine-tuning for downstream tasks.",
+      "Recommended for query 'transformers deep learning explained' (relevance 0.52, navigation 0.51):\n  Title: Popular Transformer Models: GPT and BERT\n  Summary: The chapter introduces GPT and BERT, two influential transformer-based models. GPT uses decoder blocks for generative tasks and excels in in-context learning, while BERT uses encoder blocks and is pre-trained with masked language modeling and next sentence prediction, enabling effective fine-tuning for downstream tasks.",
+      "Recommended for query 'what are the benefits of using transformers in reinforcement learning?' (relevance 0.38, navigation 0.39):\n  Title: Popular Transformer Models: GPT and BERT\n  Summary: The chapter introduces GPT and BERT, two influential transformer-based models. GPT uses decoder blocks for generative tasks and excels in in-context learning, while BERT uses encoder blocks and is pre-trained with masked language modeling and next sentence prediction, enabling effective fine-tuning for downstream tasks.",
+      "Recommended for query 'introductory lecture on deep learning models at Stanford' (relevance 0.34, navigation 0.34):\n  Title: Popular Transformer Models: GPT and BERT\n  Summary: The chapter introduces GPT and BERT, two influential transformer-based models. GPT uses decoder blocks for generative tasks and excels in in-context learning, while BERT uses encoder blocks and is pre-trained with masked language modeling and next sentence prediction, enabling effective fine-tuning for downstream tasks.",
+      "Recommended for query 'applications of transformers in computer vision' (relevance 0.32, navigation 0.25):\n  Title: Popular Transformer Models: GPT and BERT\n  Summary: The chapter introduces GPT and BERT, two influential transformer-based models. GPT uses decoder blocks for generative tasks and excels in in-context learning, while BERT uses encoder blocks and is pre-trained with masked language modeling and next sentence prediction, enabling effective fine-tuning for downstream tasks."
+    ],
+    "semantic_keywords": [
+      "models",
+      "encoder",
+      "transformer",
+      "popular",
+      "chapter",
+      "generative",
+      "modeling",
+      "tasks",
+      "trained",
+      "fine"
+    ],
+    "content_themes": [
+      "general content"
+    ],
+    "search_evaluations": [
+      {
+        "query": "transformers deep learning explained",
+        "chapter_relevance_scores": {
+          "0": 0.521634042263031
+        },
+        "navigation_utility_scores": {
+          "0": 0.5083063244819641
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "how do transformers work in natural language processing?",
+        "chapter_relevance_scores": {
+          "0": 0.5603388547897339
+        },
+        "navigation_utility_scores": {
+          "0": 0.5195786952972412
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "applications of transformers in computer vision",
+        "chapter_relevance_scores": {
+          "0": 0.3199150264263153
+        },
+        "navigation_utility_scores": {
+          "0": 0.25183746218681335
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "what are the benefits of using transformers in reinforcement learning?",
+        "chapter_relevance_scores": {
+          "0": 0.3829399347305298
+        },
+        "navigation_utility_scores": {
+          "0": 0.3907022476196289
+        },
+        "user_feedback": null
+      },
+      {
+        "query": "introductory lecture on deep learning models at Stanford",
+        "chapter_relevance_scores": {
+          "0": 0.33785900473594666
+        },
+        "navigation_utility_scores": {
+          "0": 0.3411571681499481
+        },
+        "user_feedback": null
+      }
+    ]
+  }
+]

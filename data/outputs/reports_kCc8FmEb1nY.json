@@ -1,0 +1,89 @@
+{
+  "summary_report": {
+    "total_chapters": 32,
+    "quality_statistics": {
+      "average_quality_score": 0.5968048358892365,
+      "high_quality_chapters": 0,
+      "medium_quality_chapters": 31,
+      "low_quality_chapters": 1
+    },
+    "issues_summary": {
+      "total_issues_detected": 82,
+      "chapters_with_issues": 32
+    }
+  },
+  "quality_metrics": {
+    "content_relevance": {
+      "average": 0.5238496465608478,
+      "min": 0.3046066462993622,
+      "max": 0.7804396152496338
+    },
+    "title_accuracy": {
+      "average": 0.5169272618368268,
+      "min": 0.1528591513633728,
+      "max": 0.7211177349090576
+    },
+    "summary_completeness": {
+      "average": 0.526545717869753,
+      "min": 0.34970383555800827,
+      "max": 0.7306623718113576
+    },
+    "bert_score_f1": {
+      "average": 0.8072532843798399,
+      "min": 0.7744404673576355,
+      "max": 0.8421210646629333
+    },
+    "rouge_l_f1": {
+      "average": 0.05642155841627281,
+      "min": 0.020376974019358125,
+      "max": 0.13114754098360656
+    },
+    "search_relevance": {
+      "average": 0.19151502278982663,
+      "min": -0.008463118597865105,
+      "max": 0.5364209055900574
+    },
+    "navigation_utility": {
+      "average": 0.1905016647069715,
+      "min": 0.05344824865460396,
+      "max": 0.5030820608139038
+    }
+  },
+  "issues_report": {
+    "total_issues": 82,
+    "unique_issues": 14,
+    "most_common_issues": {
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment": 32,
+      "Low content relevance - summary doesn't match transcript well": 14,
+      "Overlapping content detected with 1 other chapters": 8,
+      "Incomplete summary - missing key content points": 6,
+      "Overlapping content detected with 3 other chapters": 6
+    }
+  },
+  "recommendations_report": {
+    "total_recommendations": 160,
+    "unique_recommendations": 160,
+    "priority_recommendations": [
+      {
+        "recommendation": "Recommended for query 'funny chat GPT interactions and prompts' (relevance 0.59, navigation 0.55):\n  Title: Introduction to ChatGPT and AI Interaction\n  Summary: An overview of ChatGPT, its impact on AI community, and how it generates text sequentially. The chapter introduces the probabilistic nature of ChatGPT's responses with examples of different outputs for the same prompt.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'chat GPT examples of text prompts' (relevance 0.60, navigation 0.55):\n  Title: Introduction to ChatGPT and AI Interaction\n  Summary: An overview of ChatGPT, its impact on AI community, and how it generates text sequentially. The chapter introduces the probabilistic nature of ChatGPT's responses with examples of different outputs for the same prompt.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'how does chat GPT generate multiple responses' (relevance 0.55, navigation 0.54):\n  Title: Introduction to ChatGPT and AI Interaction\n  Summary: An overview of ChatGPT, its impact on AI community, and how it generates text sequentially. The chapter introduces the probabilistic nature of ChatGPT's responses with examples of different outputs for the same prompt.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'understanding AI language models explained' (relevance 0.47, navigation 0.44):\n  Title: Introduction to ChatGPT and AI Interaction\n  Summary: An overview of ChatGPT, its impact on AI community, and how it generates text sequentially. The chapter introduces the probabilistic nature of ChatGPT's responses with examples of different outputs for the same prompt.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'how to use chat GPT for creative writing' (relevance 0.47, navigation 0.43):\n  Title: Introduction to ChatGPT and AI Interaction\n  Summary: An overview of ChatGPT, its impact on AI community, and how it generates text sequentially. The chapter introduces the probabilistic nature of ChatGPT's responses with examples of different outputs for the same prompt.",
+        "frequency": 1
+      }
+    ]
+  }
+}

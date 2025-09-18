@@ -1,0 +1,256 @@
+{
+  "summary_report": {
+    "total_chapters": 12,
+    "quality_statistics": {
+      "average_quality_score": 0.6473943739525846,
+      "high_quality_chapters": 0,
+      "medium_quality_chapters": 12,
+      "low_quality_chapters": 0
+    },
+    "issues_summary": {
+      "total_issues_detected": 22,
+      "chapters_with_issues": 12
+    }
+  },
+  "quality_metrics": {
+    "content_relevance": {
+      "average": 0.6615191797415415,
+      "min": 0.5432766675949097,
+      "max": 0.8919418454170227
+    },
+    "title_accuracy": {
+      "average": 0.558553104599317,
+      "min": 0.19189539551734924,
+      "max": 0.7268527746200562
+    },
+    "summary_completeness": {
+      "average": 0.6424706988847552,
+      "min": 0.542140131068409,
+      "max": 0.8391348716824554
+    },
+    "bert_score_f1": {
+      "average": 0.8250197718540827,
+      "min": 0.8039954900741577,
+      "max": 0.8713321089744568
+    },
+    "rouge_l_f1": {
+      "average": 0.10333256443477325,
+      "min": 0.06818181818181819,
+      "max": 0.2336448598130841
+    },
+    "search_relevance": {
+      "average": 0.40414390976851183,
+      "min": 0.1815191764384508,
+      "max": 0.5564016461372375
+    },
+    "navigation_utility": {
+      "average": 0.39812137385209406,
+      "min": 0.262542188167572,
+      "max": 0.5440656423568726
+    }
+  },
+  "issues_report": {
+    "total_issues": 22,
+    "unique_issues": 6,
+    "most_common_issues": {
+      "Low ROUGE-L F1 - summary lacks proper sentence structure alignment": 11,
+      "Overlapping content detected with 1 other chapters": 4,
+      "Overlapping content detected with 2 other chapters": 3,
+      "Overlapping content detected with 3 other chapters": 2,
+      "Poor title accuracy - title doesn't describe content accurately": 1
+    }
+  },
+  "recommendations_report": {
+    "total_recommendations": 60,
+    "unique_recommendations": 60,
+    "priority_recommendations": [
+      {
+        "recommendation": "Recommended for query 'transformers deep learning explained' (relevance 0.72, navigation 0.68):\n  Title: Introduction to CS25: Transformers United\n  Summary: The video begins with a welcome and introduction to the CS25 course on transformers, a deep learning model that has revolutionized fields like natural language processing, computer vision, and reinforcement learning. The course was created and taught at Stanford in Fall 2021, aiming to provide a comprehensive understanding of transformers.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'what are the benefits of using transformers in reinforcement learning?' (relevance 0.54, navigation 0.53):\n  Title: Introduction to CS25: Transformers United\n  Summary: The video begins with a welcome and introduction to the CS25 course on transformers, a deep learning model that has revolutionized fields like natural language processing, computer vision, and reinforcement learning. The course was created and taught at Stanford in Fall 2021, aiming to provide a comprehensive understanding of transformers.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'applications of transformers in computer vision' (relevance 0.53, navigation 0.52):\n  Title: Introduction to CS25: Transformers United\n  Summary: The video begins with a welcome and introduction to the CS25 course on transformers, a deep learning model that has revolutionized fields like natural language processing, computer vision, and reinforcement learning. The course was created and taught at Stanford in Fall 2021, aiming to provide a comprehensive understanding of transformers.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'how do transformers work in natural language processing?' (relevance 0.51, navigation 0.49):\n  Title: Introduction to CS25: Transformers United\n  Summary: The video begins with a welcome and introduction to the CS25 course on transformers, a deep learning model that has revolutionized fields like natural language processing, computer vision, and reinforcement learning. The course was created and taught at Stanford in Fall 2021, aiming to provide a comprehensive understanding of transformers.",
+        "frequency": 1
+      },
+      {
+        "recommendation": "Recommended for query 'introductory lecture on deep learning models at Stanford' (relevance 0.49, navigation 0.50):\n  Title: Introduction to CS25: Transformers United\n  Summary: The video begins with a welcome and introduction to the CS25 course on transformers, a deep learning model that has revolutionized fields like natural language processing, computer vision, and reinforcement learning. The course was created and taught at Stanford in Fall 2021, aiming to provide a comprehensive understanding of transformers.",
+        "frequency": 1
+      }
+    ]
+  },
+  "manual_review_summary": {
+    "total_reviews": 2,
+    "chapters_reviewed": 2,
+    "average_scores": {
+      "overall_quality_score": 4.0,
+      "content_accuracy_score": 3.0,
+      "title_appropriateness_score": 4.0,
+      "summary_quality_score": 4.0,
+      "search_relevance_score": 3.0,
+      "navigation_utility_score": 3.5
+    },
+    "per_chapter": [
+      {
+        "chapter_index": 0,
+        "num_reviews": 1,
+        "averages": {
+          "overall_quality_score": 4.0,
+          "content_accuracy_score": 3.0,
+          "title_appropriateness_score": 4.0,
+          "summary_quality_score": 4.0,
+          "search_relevance_score": 3.0,
+          "navigation_utility_score": 4.0
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 1,
+        "num_reviews": 1,
+        "averages": {
+          "overall_quality_score": 4.0,
+          "content_accuracy_score": 3.0,
+          "title_appropriateness_score": 4.0,
+          "summary_quality_score": 4.0,
+          "search_relevance_score": 3.0,
+          "navigation_utility_score": 3.0
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 2,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 3,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 4,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 5,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 6,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 7,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 8,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 9,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      },
+      {
+        "chapter_index": 10,
+        "num_reviews": 0,
+        "averages": {
+          "overall_quality_score": null,
+          "content_accuracy_score": null,
+          "title_appropriateness_score": null,
+          "summary_quality_score": null,
+          "search_relevance_score": null,
+          "navigation_utility_score": null
+        },
+        "recommendation_ratings": {}
+      }
+    ]
+  },
+  "search_ratings_summary": [
+    {
+      "query": "GPT",
+      "total_searches": 1,
+      "total_results": 1,
+      "relevant_count": 1,
+      "irrelevant_count": 0,
+      "not_rated_count": 0
+    }
+  ]
+}
