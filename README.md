@@ -182,6 +182,28 @@ streamlit run annotation/app.py
 3. **Annotation**: Human scoring → Real-time aggregation → Dashboard update
 4. **Output**: Updated reports → Regenerated dashboard → Persistent storage
 
+### Streamlit Interface Components
+
+#### Chapter Review Page
+- **Chapter Navigation**: Previous/Next buttons with progress indicators
+- **Chapter Information**: Title, timestamp, and summary display
+- **Scoring Interface**: 6-dimensional quality rating (1-5 scale)
+- **Real-time Validation**: Immediate feedback on scoring completeness
+- **Progress Tracking**: Visual indicators for completion status
+
+#### Search & Rate Page
+- **Query Input**: Text input for custom search queries
+- **Search Results**: Paginated display of search results
+- **Relevance Rating**: Binary relevant/irrelevant rating system
+- **Result Navigation**: Easy browsing through search results
+- **Query Management**: Save and reuse common queries
+
+#### Dashboard Page
+- **Evaluation Overview**: Comprehensive metrics visualization
+- **Progress Summary**: Completion status across all reviewers
+- **Quality Trends**: Score distributions and patterns
+- **Export Options**: Download reports and visualizations
+
 ### Technical Implementation
 
 - **Framework**: Streamlit for responsive web interface
@@ -189,6 +211,61 @@ streamlit run annotation/app.py
 - **Storage**: JSON-based data persistence with atomic operations
 - **Visualization**: Matplotlib/Seaborn for dashboard generation
 - **AI Integration**: OpenAI o4-mini for chapter generation and evaluation
+- **Session Management**: Persistent state across page refreshes
+- **Error Handling**: Graceful recovery from system errors
+
+### Advantages of Streamlit Interface
+
+#### User Experience
+- **Intuitive Interface**: No need to manually edit JSON files
+- **Real-time Feedback**: Immediate validation and progress updates
+- **Visual Guidance**: Clear instructions and helpful tooltips
+- **Error Prevention**: Built-in validation prevents common mistakes
+
+#### Efficiency
+- **Bulk Operations**: Process multiple chapters and search results quickly
+- **Auto-save**: Changes are saved automatically as you work
+- **Progress Tracking**: Always know how much work remains
+- **Quick Navigation**: Jump between chapters and search results easily
+
+#### Collaboration
+- **Multi-reviewer Support**: Multiple reviewers can work simultaneously
+- **Namespace Isolation**: Each reviewer's work is kept separate
+- **Consensus Building**: Easy comparison of reviewer scores
+- **Quality Control**: Built-in checks for completeness and consistency
+
+#### Integration
+- **Seamless Workflow**: Direct integration with evaluator pipeline
+- **Auto-evaluation**: New videos are processed automatically
+- **Live Updates**: Dashboard refreshes in real-time
+- **Export Ready**: Data is immediately available for analysis
+
+### Streamlit Quick Reference
+
+#### Starting the Tool
+```bash
+# Navigate to project directory
+cd /path/to/evaluation
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Start Streamlit app
+streamlit run annotation/app.py
+```
+
+#### Common Operations
+- **New Video**: Enter video ID → Press Enter → Wait for auto-evaluation
+- **Existing Video**: Enter video ID → Data loads automatically
+- **Chapter Review**: Navigate with Previous/Next → Rate each dimension → Auto-save
+- **Search Rating**: Enter query → Rate results → Navigate through pages
+- **Dashboard**: View comprehensive evaluation results and progress
+
+#### Troubleshooting
+- **Data Not Loading**: Check video ID format and file permissions
+- **Evaluator Fails**: Verify Python environment and dependencies
+- **UI Not Updating**: Refresh browser or restart Streamlit
+- **Save Issues**: Check file permissions in data directory
 
 ## Command Line Options
 
